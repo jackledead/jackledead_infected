@@ -1,11 +1,11 @@
 # jackledead_infected
 ## Mod Description
-CDDA mod. Changes all classic zombies and runners to infected humans (Symbol "I", Color usually light_gray). They run fast and are weak, some faster or slower, stronger or weaker than others. Only spawn infected, robots and wildlife. Removes portal storms and non-classic map features. No more tainted meat from these guys, we eating human tonight.
+CDDA mod. Changes all classic zombies and runners and zombie animals to infected humans (Symbol "I", Color usually light_gray) and infected animals. They run fast and are weak, some faster or slower, stronger or weaker than others. Only spawn infected, robots and wildlife. Removes portal storms and non-classic map features. No more tainted meat from these guys, we eating human tonight.
 
 ## How to install:
 ### 1. Click the green button in the top and download as a zip
 ### 2. Extract and then
-### 3. simply put jackledead_infected in your /data/mods/ folder
+### 3. simply put jackledead_infected/mods/jackledead_infected in your /data/mods/ folder
 
 ## Suggested Tileset
 #### ULTICA: Represent infected humans pretty closely to my vision with the zombie sprites in ULTICA.
