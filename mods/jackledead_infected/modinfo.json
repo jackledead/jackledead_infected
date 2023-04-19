@@ -1,0 +1,38 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "jackledead_infected",
+    "name": "Jackledead Infected",
+    "authors": [ "Jackledead" ],
+    "maintainers": [ "Jackledead" ],
+    "description": "Changes zombies to the Infected, fast, reckless unfortunate souls intent on violence, driven by madness. Only spawns the infected, robots and normal wildlife. Stops portal storms.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "MAMMAL",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "BIRD",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "MUTANT",
+    "flag": { "name": "REVIVES", "value": false }
+	
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "HUMAN",
+    "flag": { "name": "REVIVES", "value": false }
+  }
+]

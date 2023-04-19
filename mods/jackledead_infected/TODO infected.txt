@@ -1,0 +1,20 @@
+TODO:
+
+
+
+done:
+infected/zombie:
+    "hp": 50,
+    "speed": 115,
+	
+heavy infected
+    "hp": 60,
+    "speed": 100,
+	
+strong infected
+	"hp": 70,
+    "speed": 110,
+
+Swat
+	"hp": 65,
+    "speed": 105,
