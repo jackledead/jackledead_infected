@@ -16,6 +16,11 @@
   },
   {
     "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "NO_BREATHE", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
     "species": "MAMMAL",
     "flag": { "name": "REVIVES", "value": false }
   },

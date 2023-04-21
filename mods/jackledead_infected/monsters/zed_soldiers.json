@@ -2,8 +2,8 @@
   {
     "id": "mon_zombie_soldier",
     "type": "MONSTER",
-    "name": { "str": "zombie soldier" },
-    "description": "Once a soldier, it is dressed head to toe in combat gear and carries itself rather steadily for a zombie.",
+    "name": { "str": "infected soldier" },
+    "description": "Once a soldier, it is dressed head to toe in combat gear and carries itself rather steadily for an infected.",
     "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
@@ -33,7 +33,7 @@
     "harvest": "human",
     "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
     "death_drops": "mon_zombie_soldier_death_drops",
-    "upgrades": { "half_life": 42, "into_group": "GROUP_SOLDIER_UPGRADE" },
+    "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_SOLDIER_1" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
@@ -72,6 +72,7 @@
     "harvest": "human",
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "mon_zombie_military_pilot_death_drops",
+	"upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_PILOT_1" },
     "burn_into": "mon_zombie_scorched",
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "NOHEAD", "FILTHY" ]
   },
@@ -83,7 +84,7 @@
     "copy-from": "mon_zombie_military_pilot",
     "looks_like": "mon_zombie",
     "delete": { "flags": [ "NOHEAD" ] },
-    "upgrades": { "half_life": 32, "into_group": "GROUP_ZOMBIE_UPGRADE" },
+    "upgrades": { "half_life": 12, "into_group": "GROUP_ZOMBIE_UPGRADE" },
     "death_drops": "mon_zombie_milbase_personnel_death_drops"
   },
   {
@@ -130,7 +131,7 @@
     "melee_skill": 6,
     "melee_dice": 3,
     "melee_dice_sides": 4,
-    "upgrades": { "half_life": 38, "into": "mon_zombie_marine_upgrade" },
+    "upgrades": { "half_life": 12, "into": "mon_zombie_marine_upgrade" },
     "death_drops": "mon_zombie_marine_death_drops",
     "dodge": 1,
     "armor_bash": 12,

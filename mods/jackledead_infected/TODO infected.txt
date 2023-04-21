@@ -1,7 +1,22 @@
 TODO:
+TESTING
 
+Probably done:
+swimmer zombies fix
+faster starvation
 
+done:
+NOBREATHE
+infected animals upgrades
+finish infected soldiers upgrades
+finish other upgrades like children
+double check all crawlers act like crawlers
+	    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ]
+		"special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
 
+add dead monsters
+		
+		
 done:
 infected/zombie:
     "hp": 50,

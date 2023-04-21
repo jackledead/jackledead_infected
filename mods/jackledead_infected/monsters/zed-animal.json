@@ -30,6 +30,7 @@
     "luminance": 0,
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "zombie_leather",
+	"upgrades": { "half_life": 200, "into": "mon_fish_pike" },
     "flags": [
       "SEES",
       "HEARS",
@@ -75,7 +76,7 @@
     "harvest": "mammal_fur",
     "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 } ],
     "death_drops": "mon_dog_death_drops",
-    "upgrades": { "half_life": 28, "into_group": "GROUP_ZOMBIE_DOG_UPGRADE" },
+    "upgrades": { "half_life": 200, "into_group": "GROUP_STRAY_DOGS" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
@@ -112,7 +113,7 @@
     "harvest": "mammal_fur",
     "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 } ],
     "death_drops": { "subtype": "collection", "groups": [ [ "dog_cop", 40 ] ], "//": "40% chance of an item from group dog_cop" },
-    "upgrades": { "half_life": 30, "into_group": "GROUP_ZOMBIE_DOG_UPGRADE" },
+    "upgrades": { "half_life": 200, "into": "mon_dog_gshepherd" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
   },
   {
@@ -146,7 +147,7 @@
     "harvest": "mammal_fur",
     "special_attacks": [ [ "HOWL", 10 ], { "type": "bite", "attack_upper": false, "cooldown": 2, "accuracy": 4, "infection_chance": 8 } ],
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
-    "upgrades": { "half_life": 42, "into_group": "GROUP_ZOLF_UPGRADE" },
+    "upgrades": { "half_life": 200, "into": "mon_wolf" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "KEENNOSE", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
@@ -183,7 +184,7 @@
     "vision_night": 5,
     "harvest": "mammal_fur",
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
-    "upgrades": { "half_life": 42, "into_group": "GROUP_ZOMBEAR_UPGRADE" },
+    "upgrades": { "half_life": 240, "into": "mon_bear" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
   },
   {
@@ -218,7 +219,7 @@
     "path_settings": { "max_dist": 10 },
     "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 2 } ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "upgrades": { "half_life": 50, "into_group": "GROUP_ZOMBIE_PIG_UPGRADE" },
+    "upgrades": { "half_life": 190, "into": "mon_boar_wild" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "KEENNOSE", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ],
     "//": "1d8->2d5, minor bonus over 1d9"
   },
@@ -253,7 +254,8 @@
     "vision_night": 5,
     "harvest": "mammal_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "SWIMS" ]
+    "upgrades": { "half_life": 190, "into": "mon_beaver" },
+	"flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "SWIMS" ]
   },
   {
     "id": "mon_zoose",
@@ -288,7 +290,7 @@
     "vision_night": 5,
     "harvest": "mammal_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
-    "upgrades": { "half_life": 42, "into_group": "GROUP_ZOOSE_UPGRADE" },
+    "upgrades": { "half_life": 190, "into": "mon_moose" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
@@ -324,7 +326,7 @@
     "harvest": "mammal_fur",
     "special_attacks": [ { "type": "leap", "cooldown": 10, "max_range": 5 } ],
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
-    "upgrades": { "half_life": 42, "into_group": "GROUP_ZOUGAR_UPGRADE" },
+    "upgrades": { "half_life": 190, "into": "mon_cougar" },
     "flags": [
       "SEES",
       "HEARS",
@@ -372,13 +374,13 @@
     "vision_night": 3,
     "harvest": "mammal_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "upgrades": { "half_life": 42, "into_group": "GROUP_ZOMBIE_HORSE_UPGRADE" },
+    "upgrades": { "half_life": 100, "into": "mon_horse" },
     "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE", "REVIVES" ]
   },
   {
     "id": "mon_ziger",
     "type": "MONSTER",
-    "name": { "str": "tiger wight" },
+    "name": { "str": "infected tiger" },
     "description": "This tiger stumbles and sways, its jaws slack, its eyes wide open and bloodshot.",
     "copy-from": "mon_zougar",
     "volume": "150 L",
@@ -391,7 +393,8 @@
     "symbol": "T",
     "color": "red",
     "melee_dice": 3,
-    "dodge": 0
+    "dodge": 0,
+	"upgrades": { "half_life": 140, "into": "mon_tiger" }
   },
   {
     "id": "mon_zow",
@@ -426,7 +429,8 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "death_drops": { "subtype": "collection", "groups": [ [ "cow", 25 ] ], "//": "25% chance of an item from group cow" },
     "harvest": "mammal_leather",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
+    "upgrades": { "half_life": 150, "into": "mon_cow" },
+	"flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
     "id": "mon_zombull",
@@ -462,6 +466,7 @@
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "harvest": "mammal_leather",
     "special_attacks": [ { "id": "smash", "throw_strength": 72 } ],
+	"upgrades": { "half_life": 170, "into": "mon_cow" },
     "flags": [
       "SEES",
       "HEARS",
@@ -507,7 +512,7 @@
     "harvest": "mammal_leather",
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "special_attacks": [ ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "NO_BREATHE", "REVIVES", "FILTHY" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
     "id": "mon_zeer",
@@ -540,6 +545,7 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "vision_night": 15,
     "harvest": "mammal_leather",
+	"upgrades": { "half_life": 200, "into": "mon_deer" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
@@ -573,6 +579,7 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "vision_night": 10,
     "harvest": "mammal_leather",
+	"upgrades": { "half_life": 200, "into": "mon_reindeer" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   }
 ]

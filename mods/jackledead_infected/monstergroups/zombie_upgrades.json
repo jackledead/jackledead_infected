@@ -1,0 +1,164 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_STARVING",
+    "//": "common infected first stage.",
+    "monsters": [
+      { "monster": "mon_starving_infected", "weight": 80 },
+      { "monster": "mon_zombie", "weight": 40 },
+      { "monster": "mon_zombie_crawler", "weight": 40 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_CRAWLER",
+    "default": "mon_zombie_crawler",
+    "//": "crawling infected upgrades first stage",
+    "monsters": [
+      { "monster": "mon_zombie_crawler", "weight": 100 },
+      { "monster": "mon_neardead_infected_crawler", "weight": 100 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_COP_STARVING",
+    "//": "infected cops first stage.",
+    "monsters": [
+      { "monster": "mon_zombie_cop" },
+      { "monster": "mon_starving_cop", "weight": 80 },
+      { "monster": "mon_starving_cop_crawler", "weight": 20 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_COP_STARVING_CRAWLING",
+    "//": "infected cops second stage.",
+    "monsters": [ { "monster": "mon_starving_cop", "weight": 30 }, { "monster": "mon_starving_cop_crawler", "weight": 80 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_COP_NEARDEAD_CRAWLING",
+    "//": "infected cop third stage",
+    "monsters": [ { "monster": "mon_starving_cop_crawler", "weight": 100 }, { "monster": "mon_neardead_cop_crawler", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_HEAVY_STARVING",
+    "//": "heavies go to common infected.",
+    "monsters": [ { "monster": "mon_zombie" } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_TOUGH_STARVING",
+    "//": "tough go to starving, common, crawler or heavy if theyre lucky",
+    "monsters": [
+      { "monster": "mon_starving_infected", "weight": 50 },
+      { "monster": "mon_zombie", "weight": 50 },
+      { "monster": "mon_zombie_crawler", "weight": 50 },
+      { "monster": "mon_zombie_fat", "weight": 30 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_FIREMAN_STARVING",
+    "//": "fire infected first stage",
+    "monsters": [ { "monster": "mon_starving_fireman" } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_FIREMAN_NEARDEAD",
+    "//": "fire infected second stage.",
+    "monsters": [ { "monster": "mon_neardead_starving_fireman" } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_HAZMAT_1",
+    "//": "HAZMAT infected first stage",
+    "monsters": [ { "monster": "mon_infected_hazmat_crawler" } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_SOLDIER_1",
+    "default": "mon_starving_soldier",
+    "//": "soldiers infected stage 1.",
+    "monsters": [
+      { "monster": "mon_starving_soldier", "weight": 250 },
+      { "monster": "mon_starving_soldier_crawler", "weight": 200 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_SOLDIER_2",
+    "//": "soldiers infected stage 2.",
+    "monsters": [
+      { "monster": "mon_starving_soldier_crawler" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_SOLDIER_3",
+    "//": "soldiers infected stage 3, near-dead.",
+    "monsters": [
+      { "monster": "mon_neardead_soldier_crawler" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_PILOT_1",
+    "//": "INFECT PILOT stage 1.",
+    "monsters": [
+      { "monster": "mon_starving_military_pilot" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_SWAT",
+    "//": "swat stage 1.",
+    "monsters": [
+      { "monster": "mon_starving_swat" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_SWAT_2",
+    "//": "swat stage 2.",
+    "monsters": [
+      { "monster": "mon_neardead_swat_crawler" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_MEDICAL_UPGRADE",
+    "//": "doctors infected 1",
+    "monsters": [
+      { "monster": "mon_starving_medical", "weight": 200 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_INFECTED_MEDICAL_CRAWLER_UPGRADE",
+    "default": "mon_zombie_medical_pupa",
+    "//": "DOCTORS INFECTED 2",
+    "monsters": [
+      { "monster": "mon_starving_medical_crawler", "weight": 200 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CHILD_INFECTED_UPGRADE",
+    "//": "infected kid stage 1",
+    "monsters": [
+      { "monster": "mon_starving_child", "weight": 100 },
+      { "monster": "mon_starving_child_crawler", "weight": 60 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CHILD_INFECTED_NEARDEAD",
+    "//": "infected kid stage 2",
+    "monsters": [
+      { "monster": "mon_neardead_child_crawler", "weight": 100 },
+      { "monster": "mon_starving_child_crawler", "weight": 100 }
+    ]
+  }
+]
