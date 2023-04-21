@@ -2,7 +2,17 @@
   {
     "type": "MONSTER_WHITELIST",
     "mode": "EXCLUSIVE",
-    "categories": [ "CLASSIC", "WILDLIFE", "ROBOT" ]
+    "categories": [ "CLASSIC", "WILDLIFE" ],
+	"species": [ "ROBOT", "CYBORG" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+	"species": [ "MUTANT" ],
+	"monsters": [
+      "mon_exodii_worker",
+      "mon_exodii_quad",
+	  "mon_zomborg_devourer"
+    ]
   },
   {
     "type": "SCENARIO_BLACKLIST",

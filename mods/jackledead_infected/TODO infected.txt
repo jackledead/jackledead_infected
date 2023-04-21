@@ -1,11 +1,18 @@
 TODO:
-TESTING
+TESTING (always)
+
+
 
 Probably done:
+robots
+cyborgs
+
+
+done:
+infected reenactor
 swimmer zombies fix
 faster starvation
 
-done:
 NOBREATHE
 infected animals upgrades
 finish infected soldiers upgrades

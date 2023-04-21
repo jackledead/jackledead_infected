@@ -75,5 +75,14 @@
     "upgrades": { "half_life": 12, "into": "mon_starving_infected" },
     "categories": [ "CLASSIC" ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+  },
+  {
+    "id": "mon_zombie_reenactor",
+    "type": "MONSTER",
+    "name": { "str": "infected reenactor" },
+    "description": "This infected is dressed in the tatters of an antiquated soldier's uniform.  It was probably a historical reenactor.",
+    "copy-from": "mon_zombie",
+    "death_drops": "zombie_reenactor_drops",
+    "color": "blue"
   }
 ]
