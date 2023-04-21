@@ -1,0 +1,24 @@
+OPTIONAL CODE:
+
+CAN OPEN DOORS AND AVOIDS DANGER:
+
+Use this code under 
+
+{
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "NO_BREATHE", "value": false }
+  },
+  
+in modinfo.json
+
+{
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "CAN_OPEN_DOORS", "value": true }
+},
+{
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "PATH_AVOID_DANGER_1", "value": true }
+},
