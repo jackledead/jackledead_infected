@@ -6,7 +6,7 @@
     "description": "This infected moves quickly, darting its head back and forth and gnawing at its hands.",
     "default_faction": "zombie",
     "bodytype": "human",
-	"categories": [ "CLASSIC" ],
+    "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",

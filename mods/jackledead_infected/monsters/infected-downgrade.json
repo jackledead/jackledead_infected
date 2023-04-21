@@ -5,7 +5,7 @@
     "name": { "str": "skinny infected" },
     "description": "An starving, skinny, infected human. It has an mad look and its bloodshot eyes twitch about.",
     "looks_like": "mon_zombie",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -40,7 +40,7 @@
     "name": { "str": "starving infected cop" },
     "description": "An starving, angry, infected human covered by a weather-beaten and badly damaged set of police gear.",
     "looks_like": "mon_zombie_cop",
-	"bodytype": "human",
+    "bodytype": "human",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -80,7 +80,7 @@
     "name": { "str": "starving infected cop crawler" },
     "description": "This human drags itself along slowly with its arms. It doesn't have the strength to stand. It has a weather-beaten police uniform and badly damaged set of gear.",
     "looks_like": "mon_zombie_cop",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -119,7 +119,7 @@
     "name": { "str": "near-dead infected crawler" },
     "description": "This human slowly drags itself along slowly with its arms. It doesn't have the strength to stand or crawl quickly. It will soon perish from starvation.",
     "looks_like": "mon_zombie_crawler",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -154,7 +154,7 @@
     "name": { "str": "neard-dead infected cop crawler" },
     "description": "This human slowly drags itself along slowly with its arms. It doesn't have the strength to stand or crawl quickly. It will soon perish from starvation.",
     "looks_like": "mon_zombie_cop",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -193,7 +193,7 @@
     "name": { "str": "starving infected firefighter" },
     "description": "Worn and starved, this infected human clad in tattered firefighting gear.  It staggers aimlessly, reeking of smoke and feces.  Its protective mask prevents it from attempting to bite you.",
     "looks_like": "mon_zombie_fireman",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -246,7 +246,7 @@
     "name": { "str": "near-dead infected starving fireman" },
     "description": "This infected human is a near-dead fireman, starving and desperate for sustenance. It moves slowly, dragging itself along with its arms, but its protective gear makes it difficult to take down. Its breathing mask prevents it from biting, but it can still grab you with its gloved hands.",
     "looks_like": "mon_zombie_fireman",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -301,7 +301,7 @@
     "name": { "str": "hazmat infected crawler" },
     "description": "This infected is encased in a protective suit.  At least it can't bite you from inside that suit. It hasn't eaten for a long time.",
     "looks_like": "mon_zombie_hazmat",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -352,7 +352,7 @@
       "PUSH_MON",
       "NO_FUNG_DMG",
       "FILTHY",
-	  "ATTACK_LOWER"
+      "ATTACK_LOWER"
     ]
   },
   {
@@ -361,7 +361,7 @@
     "name": { "str": "starving infected soldier" },
     "description": "Once a soldier, it is dressed head to toe in combat gear and thrashing violently. It looks skinny.",
     "looks_like": "mon_zombie_soldier",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -401,7 +401,7 @@
     "name": { "str": "infected soldier crawler" },
     "description": "Once a soldier, this infected is too starved to stand, let alone salute anyone.",
     "looks_like": "mon_zombie_soldier",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -433,7 +433,19 @@
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_2" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY", "ATTACK_LOWER" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ]
   },
   {
     "id": "mon_neardead_soldier_crawler",
@@ -441,7 +453,7 @@
     "name": { "str": "nead-dead starving soldier crawler" },
     "description": "Once a soldier, this infected is too starved to stand, let alone salute anyone. It will soon perish from starvation.",
     "looks_like": "mon_zombie_soldier",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -473,7 +485,19 @@
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_3" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY", "ATTACK_LOWER" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ]
   },
   {
     "id": "mon_starving_military_pilot",
@@ -481,7 +505,7 @@
     "name": { "str": "starving infected military pilot crawler" },
     "description": "Once a pilot, it is dressed in basic military fatigues, aviator sunglasses, and a sturdy-looking helmet. It crawls hungrily.",
     "looks_like": "mon_zombie_military_pilot",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -511,7 +535,20 @@
     "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
     "death_drops": "mon_zombie_military_pilot_death_drops",
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "NOHEAD", "FILTHY", "ATTACK_LOWER" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "NOHEAD",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ]
   },
   {
     "id": "mon_starving_swat",
@@ -549,7 +586,7 @@
     "death_drops": "mon_zombie_swat_death_drops",
     "fungalize_into": "mon_zombie_fungus",
     "burn_into": "mon_zombie_scorched",
-	"upgrades": { "half_life": 24, "into_group": "GROUP_INFECTED_SWAT_2" },
+    "upgrades": { "half_life": 24, "into_group": "GROUP_INFECTED_SWAT_2" },
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
   },
   {
@@ -558,7 +595,7 @@
     "name": { "str": "nead-dead starving SWAT crawler" },
     "description": "This crawling and starving infected was part of a specialized unit of law enforcement.  It still wears a battered armor with the SWAT logo emblazoned on the front.  The protective mask makes its head a difficult target, but also prevents it from biting you.",
     "looks_like": "mon_zombie_swat",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -589,7 +626,19 @@
     "death_drops": "mon_zombie_swat_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY", "ATTACK_LOWER" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ]
   },
   {
     "id": "mon_starving_medical",
@@ -597,7 +646,7 @@
     "name": { "str": "starving infected medic" },
     "description": "This infected person is dressed like a medical professional.  They wimper and growl, starving in madness.",
     "looks_like": "mon_zombie_medical",
-	"copy-from": "mon_starving_infected",
+    "copy-from": "mon_starving_infected",
     "death_drops": "mon_zombie_medical_death_drops",
     "color": "blue",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_MEDICAL_CRAWLER_UPGRADE" }
@@ -608,7 +657,7 @@
     "name": { "str": "starving infected medic crawler" },
     "description": "This infected person is dressed like a medical professional.  They wimper and growl, starving in madness. They can no longer support their weight.",
     "looks_like": "mon_zombie_medical",
-	"copy-from": "mon_neardead_infected_crawler",
+    "copy-from": "mon_neardead_infected_crawler",
     "death_drops": "mon_zombie_medical_death_drops",
     "color": "blue"
   },
@@ -618,7 +667,7 @@
     "name": { "str": "starving infected child", "str_pl": "starving infected children" },
     "description": "It looks very thin, starved even. It was only a child, and little is different about it now aside from the hungry look in its eyes.  You'd be hard-pressed to not feel like you were killing an actual child by putting it down.",
     "looks_like": "mon_zombie_child",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -660,7 +709,7 @@
     "name": { "str": "starving infected crawler child", "str_pl": "starving infected crawler children" },
     "description": "This human drags itself along slowly with its arms. It looks very thin, starved even. It was only a child, and little is different about it now aside from the hungry look in its eyes. You'd be hard-pressed to not feel like you were killing an actual child by putting it down.",
     "looks_like": "mon_zombie_child",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -694,7 +743,20 @@
     "burn_into": "mon_zombie_child_scorched",
     "fungalize_into": "mon_zombie_child_fungus",
     "upgrades": { "half_life": 26, "into_group": "GROUP_CHILD_INFECTED_NEARDEAD" },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GRABS",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ]
   },
   {
     "id": "mon_neardead_child_crawler",
@@ -702,7 +764,7 @@
     "name": { "str": "near-dead starving infected crawler child", "str_pl": "starving infected crawler children" },
     "description": "This poor kid is almost starved to death. They hunger for flesh, but cannot reach it.",
     "looks_like": "mon_zombie_child",
-	"default_faction": "zombie",
+    "default_faction": "zombie",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -735,6 +797,19 @@
     "death_function": { "effect": { "id": "death_guilt", "min_level": 7 } },
     "burn_into": "mon_zombie_child_scorched",
     "fungalize_into": "mon_zombie_child_fungus",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GRABS",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ]
   }
 ]
