@@ -11,6 +11,8 @@ CDDA mod. Changes all classic zombies and runners and zombie animals to infected
 ### 1. Click the green button in the top and download as a zip
 ### 2. Extract and then
 ### 3. simply put jackledead_infected/mods BN/jackledead_infected in your /data/mods/ folder
+### 4. play with default monster evolution at 4.00 at world gen. twice what is default, 2. 
+I will adjust monster half lives soon so you dont have to do this step. If you dont play with it at 4, and keep it at default of 2, then infected will starve twice as fast as intended.
 
 ## Suggested Tileset
 #### ULTICA: Represent infected humans pretty closely to my vision with the zombie sprites in ULTICA.
