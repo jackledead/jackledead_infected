@@ -1,0 +1,59 @@
+TODO:
+TESTING (always)
+
+figure out what professions i dont need to exclude
+
+BN port polishing
+
+
+Probably done:
+decayed zombie is spawning, turn to malnurished zombie
+remove rottweiler
+mon_dog_death_drops unknown
+cyborg species unknown
+
+turn "melee_damage": [ { "damage_type": "cut", "amount": 2 } ],
+into "melee_cut": 2,
+
+turn "special_attacks": [ { "id": "scratch", "cooldown": 15 } ],
+into "special_attacks": [ [ "scratch", 15 ] ],
+
+crawler upgrade fix
+remove armor_elec, families, weakpoints and attack lower from all bn monsters
+king of cannibals and fast crawlers
+robots
+cyborgs
+
+
+done:
+infected reenactor
+swimmer zombies fix
+faster starvation
+
+NOBREATHE
+infected animals upgrades
+finish infected soldiers upgrades
+finish other upgrades like children
+double check all crawlers act like crawlers
+	    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ]
+		"special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+
+add dead monsters
+		
+		
+reference:
+infected/zombie:
+    "hp": 50,
+    "speed": 115,
+	
+heavy infected
+    "hp": 60,
+    "speed": 100,
+	
+strong infected
+	"hp": 70,
+    "speed": 110,
+
+Swat
+	"hp": 65,
+    "speed": 105,

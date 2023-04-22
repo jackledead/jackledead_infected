@@ -1,0 +1,68 @@
+[
+  {
+    "type": "MONSTER_WHITELIST",
+    "mode": "EXCLUSIVE",
+    "categories": [ "CLASSIC", "WILDLIFE" ],
+	"monsters": [
+      "mon_eyebot",
+      "mon_grocerybot",
+      "mon_grocerybot_busted",
+      "mon_hazmatbot",
+      "mon_haulerbot",
+      "mon_molebot",
+	  "mon_nursebot",
+	  "mon_nursebot_defective",
+	  "mon_turret_searchlight",
+	  "mon_laserturret",
+	  "mon_turret_riot",
+	  "mon_turret_light",
+	  "mon_turret_medium",
+	  "mon_turret_longrange",
+	  "mon_EMP_hack",
+	  "mon_c4_hack",
+	  "mon_flashbang_hack",
+	  "mon_gasbomb_hack",
+	  "mon_grenade_hack",
+	  "mon_manhack",
+	  "mon_copbot",
+	  "mon_riotbot",
+	  "mon_secubot",
+	  "mon_talon_m202a1",
+	  "mon_skitterbot",
+	  "mon_science_bot",
+	  "mon_robofac_prototype",
+	  "mon_dispatch",
+	  "mon_dispatch_military",
+	  "mon_zomborg",
+	  "mon_broken_cyborg",
+	  "mon_prototype_cyborg"
+    ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+	"monsters": [
+	  "mon_dog_zombie_rot"
+    ]
+  },
+  {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "blacklist",
+    "scenarios": [
+      "fungal_start",
+      "hunted_start",
+      "lab_cargo_staff_1",
+      "lab_chal",
+      "lab_staff",
+      "medieval",
+      "migo_prisoner",
+      "Mine_bottom",
+      "mutant",
+      "overrun"
+    ]
+  },
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "overmap_feature_flag_settings": { "whitelist": [ "CLASSIC" ] }
+  }
+]
