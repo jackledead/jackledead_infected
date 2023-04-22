@@ -138,7 +138,7 @@
   {
     "type": "monstergroup",
     "name": "GROUP_INFECTED_MEDICAL_CRAWLER_UPGRADE",
-    "default": "mon_zombie_medical_pupa",
+    "default": "mon_starving_medical_crawler",
     "//": "DOCTORS INFECTED 2",
     "monsters": [ { "monster": "mon_starving_medical_crawler", "weight": 200 } ]
   },

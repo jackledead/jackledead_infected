@@ -3,7 +3,7 @@
     "id": "mon_starving_infected",
     "type": "MONSTER",
     "name": { "str": "skinny infected" },
-    "description": "An starving, skinny, infected human. It has an mad look and its bloodshot eyes twitch about.",
+    "description": "A starving, skinny, infected human. It has an mad look and its bloodshot eyes twitch about.",
     "looks_like": "mon_zombie",
     "default_faction": "zombie",
     "bodytype": "human",
@@ -38,7 +38,7 @@
     "id": "mon_starving_cop",
     "type": "MONSTER",
     "name": { "str": "starving infected cop" },
-    "description": "An starving, angry, infected human covered by a weather-beaten and badly damaged set of police gear.",
+    "description": "A starving, angry, infected human covered by a weather-beaten and badly damaged set of police gear.",
     "looks_like": "mon_zombie_cop",
     "bodytype": "human",
     "default_faction": "zombie",
@@ -700,7 +700,7 @@
     "death_function": { "effect": { "id": "death_guilt", "min_level": 7 } },
     "burn_into": "mon_zombie_child_scorched",
     "fungalize_into": "mon_zombie_child_fungus",
-    "upgrades": { "half_life": 30, "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE" },
+    "upgrades": { "half_life": 30, "into_group": "GROUP_CHILD_INFECTED_UPGRADE" },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {

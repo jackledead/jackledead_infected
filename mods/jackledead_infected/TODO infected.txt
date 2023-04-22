@@ -2,17 +2,25 @@ TODO:
 TESTING (always)
 
 
-
 Probably done:
-king of cannibals and fast crawlers
-robots
+fix rot weiler
+make zed_survivor classic => "categories": [ "CLASSIC" ],
+fix all of zed_lab
+
 cyborgs
 
 
 done:
+BN port
+robots
+king of cannibals and fast crawlers
+infected cow description
+medical pupa is default for starving medical
+skinny zombie description grammar typo "an"
 infected reenactor
 swimmer zombies fix
 faster starvation
+
 
 NOBREATHE
 infected animals upgrades
