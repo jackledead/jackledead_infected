@@ -21,9 +21,6 @@
     "melee_dice_sides": 2,
     "melee_damage": [ { "damage_type": "cut", "amount": 0 } ],
     "dodge": 5,
-    "armor_bash": 14,
-    "armor_cut": 10,
-    "armor_bullet": 8,
     "vision_day": 50,
     "revert_to_itype": "bot_broken_cyborg",
     "special_attacks": [ [ "PARROT", 800 ] ],
@@ -43,7 +40,8 @@
       "STUMBLES",
       "HUMAN",
       "NO_NECRO"
-    ]
+    ],
+	"armor": { "bash": 14, "cut": 10, "bullet": 8 }
   },
   {
     "id": "mon_prototype_cyborg",
@@ -67,9 +65,6 @@
     "melee_dice_sides": 2,
     "melee_damage": [ { "damage_type": "cut", "amount": 1 } ],
     "dodge": 2,
-    "armor_bash": 10,
-    "armor_cut": 6,
-    "armor_bullet": 5,
     "vision_day": 50,
     "path_settings": { "avoid_traps": true, "avoid_sharp": true },
     "revert_to_itype": "bot_prototype_cyborg",
@@ -89,7 +84,8 @@
       "HUMAN",
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS"
-    ]
+    ],
+	"armor": { "bash": 10, "cut": 6, "bullet": 5 }
   },
   {
     "id": "mon_zomborg",
@@ -113,9 +109,6 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_damage": [ { "damage_type": "cut", "amount": 12 } ],
-    "armor_bash": 12,
-    "armor_cut": 28,
-    "armor_bullet": 8,
     "bleed_rate": 25,
     "vision_night": 3,
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
@@ -125,6 +118,7 @@
     "families": [ "prof_wp_cyborg" ],
     "harvest": "mon_human_cyborg",
     "dissect": "dissect_mon_zomborg",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
+	"armor": { "bash": 12, "cut": 28, "bullet": 8 }
   }
 ]

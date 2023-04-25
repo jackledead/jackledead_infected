@@ -3,6 +3,9 @@ TESTING (always)
 
 
 Probably done:
+update new damage and armor types 4/24/23 experimental changes update
+
+most definitely done:
 fix rot weiler
 make zed_survivor classic => "categories": [ "CLASSIC" ],
 fix all of zed_lab

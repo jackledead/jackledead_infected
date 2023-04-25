@@ -23,7 +23,6 @@
     "melee_dice_sides": 4,
     "melee_damage": [ { "damage_type": "cut", "amount": 2 } ],
     "dodge": 1,
-    "armor_elec": 1,
     "weakpoint_sets": [ "wps_humanoid_body" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "vision_day": 50,
@@ -48,7 +47,8 @@
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
       "FILTHY"
-    ]
+    ],
+	"armor": { "electric": 1 }
   },
   {
     "id": "mon_zombie_labsecurity",
@@ -73,11 +73,6 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_damage": [ { "damage_type": "cut", "amount": 1 } ],
-    "armor_bash": 4,
-    "armor_cut": 6,
-    "armor_bullet": 4,
-    "armor_stab": 4,
-    "armor_elec": 2,
     "weakpoints": [
       { "name": "the leg", "armor_mult": { "physical": 0 }, "coverage": 18 },
       { "name": "the arm", "armor_mult": { "physical": 0 }, "coverage": 9 },
@@ -91,6 +86,7 @@
     "special_attacks": [ [ "GRAB", 10 ], [ "scratch", 10 ] ],
     "death_drops": "mon_zombie_labsecurity_death_drops",
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
+	"armor": { "bash": 4, "cut": 6, "stab": 4, "bullet": 4, "electric": 2 }
   }
 ]
