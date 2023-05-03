@@ -1,0 +1,188 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "jackle_corpse_generic",
+	"looks_like": "rmi2_corpse",
+    "symbol": "%",
+    "color": "white",
+    "name": { "str": "corpse" },
+    "description": "A dead body of a human adult. They probably didn't die peacefully.",
+    "category": "other",
+    "material": [ "hflesh" ],
+    "price": 0,
+    "volume": "27 L",
+    "weight": "40 kg",
+    "flags": [ "TRADER_AVOID", "TARDIS" ],
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 100,
+        "max_contains_volume": "1650 L",
+        "max_contains_weight": "2000 kg",
+        "max_item_volume": "150 L",
+        "max_item_length": "60 meter",
+        "rigid": false,
+        "forbidden": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "jackle_corpse_burned",
+	"looks_like": "corpse_scorched",
+    "symbol": "%",
+    "color": "dark_gray",
+    "name": { "str": "corpse" },
+    "description": "An awful, almost unidentifiable mass of charred flesh.",
+    "category": "other",
+    "material": [ "hflesh" ],
+    "price": 0,
+    "volume": "22 L",
+    "weight": "30 kg",
+    "flags": [ "TRADER_AVOID", "TARDIS" ],
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 100,
+        "max_contains_volume": "1650 L",
+        "max_contains_weight": "2000 kg",
+        "max_item_volume": "150 L",
+        "max_item_length": "60 meter",
+        "rigid": false,
+        "forbidden": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "jackle_corpse_child",
+	"looks_like": "corpse_child_calm",
+    "symbol": "%",
+    "color": "white",
+    "name": { "str": "child corpse" },
+    "description": "The dead body of a child.",
+    "category": "other",
+    "material": [ "hflesh" ],
+    "price": 0,
+    "volume": "16 L",
+    "weight": "16 kg",
+    "flags": [ "TRADER_AVOID", "TARDIS" ],
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 100,
+        "max_contains_volume": "1650 L",
+        "max_contains_weight": "2000 kg",
+        "max_item_volume": "150 L",
+        "max_item_length": "60 meter",
+        "rigid": false,
+        "forbidden": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_human",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_male",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_female",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_boy",
+    "copy-from": "jackle_corpse_child",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_girl",
+    "copy-from": "jackle_corpse_child",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_child_calm",
+    "copy-from": "jackle_corpse_child",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_child_gunned",
+    "copy-from": "jackle_corpse_child",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_oldwoman_jewelry",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_bloody",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_painful",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_scorched",
+    "copy-from": "jackle_corpse_burned",
+    "name": { "str": "burned corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_stabbed",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_gunned",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_halved_upper",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_half_beheaded",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_gunned",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_infected",
+    "copy-from": "jackle_corpse_generic",
+    "name": { "str": "corpse" }
+  }
+]
