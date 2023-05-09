@@ -25,6 +25,7 @@ I will adjust monster half lives soon so you dont have to do this step. If you d
 ## Additional Mods you may be interested in
 #### deadly_bites" aka "Deadly Zombie Virus" in the core CDDA mods for that infected bite risk. Really makes fast ones dangerous.
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
+#### [No Hope and Dinos](https://github.com/jackledead/No-Hope-and-Dinos). Doesnt work with infected well, but works great with armory. Hopeless dinosaur apocalypse inbound.
 
 ## Special Thanks
 #### My Wife for being my biggest fan.
