@@ -20,7 +20,7 @@ I will adjust monster half lives soon so you dont have to do this step. If you d
 #### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
 
 ## Suggested Mods for use with this mod
-#### [Jackledead Armory Github](https://github.com/jackledead/jackledead_armory) for that Ukrainian apocalypse feel.
+#### [Jackledead Armory Github](https://github.com/jackledead/jackledead_armory) for that Ukrainian apocalypse feel. Over 40 new gun mods, over 8 new guns. Tons of professions.
 
 ## Additional Mods you may be interested in
 #### deadly_bites" aka "Deadly Zombie Virus" in the core CDDA mods for that infected bite risk. Really makes fast ones dangerous.
