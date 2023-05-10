@@ -2,12 +2,12 @@
 ## Mod Description
 CDDA mod. Changes all classic zombies and runners and zombie animals to infected humans (Symbol "I", Color usually light_gray) and infected animals. They run fast and are weak, some faster or slower, stronger or weaker than others. Only spawn infected, robots and wildlife. Removes portal storms and non-classic map features. No more tainted meat from these guys, we eating human tonight. Infected starve over time, degrading evey few weeks, or they may come out on top as cannibal kings or fast crawlers.
 
-## How to install (CDDA):
+## How to install (CDDA Latest Experimental):
 ### 1. Click the green button in the top and download as a zip
 ### 2. Extract and then
 ### 3. simply put jackledead_infected/mods/jackledead_infected in your /data/mods/ folder
 
-## How to install (CBN):
+## How to install (CBN Latest Experimental):
 ### 1. Click the green button in the top and download as a zip
 ### 2. Extract and then
 ### 3. simply put jackledead_infected/mods BN/jackledead_infected in your /data/mods/ folder
