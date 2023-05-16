@@ -33,11 +33,15 @@
     "type": "monster_adjustment",
     "species": "MUTANT",
     "flag": { "name": "REVIVES", "value": false }
-	
   },
   {
     "type": "monster_adjustment",
     "species": "HUMAN",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "CYBORG",
     "flag": { "name": "REVIVES", "value": false }
   }
 ]
