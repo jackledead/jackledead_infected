@@ -27,17 +27,36 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "vision_night": 3,
     "harvest": "human",
+    "grab_strength": 30,
+    "//eat": "eat those foods, peoples, animals and crops you king...",
     "special_attacks": [
-      { "type": "bite", "cooldown": 4, "min_mul": 0.75, "//": "Fat zombies have stronger jaws" },
-      [ "GRAB", 10 ],
-      [ "scratch", 25 ]
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 80 ],
+      [ "EAT_FOOD", 80 ],
+      [ "EAT_CROP", 80 ]
     ],
+    "stomach_size": 2,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_TOUGH_STARVING" },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 10, "cut": 10, "stab": 10, "bullet": 6, "electric": 2 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "bash": 10, "cut": 10, "stab": 10, "bullet": 6, "electric": 2 }
   },
   {
     "id": "mon_fast_infected_crawler",
@@ -66,13 +85,22 @@
     "weakpoint_sets": [ "wps_humanoid_body" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 3 }, { "id": "scratch", "attack_upper": false, "cooldown": 2 } ],
+    "grab_strength": 20,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 120 ],
+      [ "EAT_FOOD", 120 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_CRAWLER" },
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "STUMBLES",
       "WARM",
@@ -85,6 +113,6 @@
       "ATTACK_LOWER",
       "HIT_AND_RUN"
     ],
-	"armor": { "electric": 1 }
+    "armor": { "electric": 1 }
   }
 ]

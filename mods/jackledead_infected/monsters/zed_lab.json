@@ -28,13 +28,23 @@
     "vision_day": 50,
     "vision_night": 3,
     "harvest": "mon_human_cyborg",
-	"dissect": "dissect_mon_zomborg",
+    "dissect": "dissect_mon_zomborg",
     "path_settings": { "max_dist": 5 },
-    "special_attacks": [ [ "scratch", 20 ] ],
+    "grab_strength": 17,
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_scientist_death_drops",
     "burn_into": "mon_zombie_scorched",
     "flags": [
       "SEES",
+      "EATS",
+      "GRABS",
       "HEARS",
       "STUMBLES",
       "WARM",
@@ -48,7 +58,7 @@
       "PRIORITIZE_TARGETS",
       "FILTHY"
     ],
-	"armor": { "electric": 1 }
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_zombie_labsecurity",
@@ -82,11 +92,33 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "mon_human_cyborg",
-	"dissect": "dissect_mon_zomborg",
-    "special_attacks": [ [ "GRAB", 10 ], [ "scratch", 10 ] ],
+    "dissect": "dissect_mon_zomborg",
+    "grab_strength": 20,
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_labsecurity_death_drops",
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 4, "cut": 6, "stab": 4, "bullet": 4, "electric": 2 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "GRABS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "bash": 4, "cut": 6, "stab": 4, "bullet": 4, "electric": 2 }
   }
 ]
