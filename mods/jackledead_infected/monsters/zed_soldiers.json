@@ -27,13 +27,35 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
+    "grab_strength": 20,
+    "//eats": "Infected eat corpses. see flags and special attack.",
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_SOLDIER_1" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "GRABS",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
   },
   {
     "id": "mon_zombie_military_pilot",
@@ -63,12 +85,35 @@
     "vision_day": 35,
     "vision_night": 5,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
+    "grab_strength": 20,
+    "//eats": "Infected eat corpses. see flags and special attack.",
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_military_pilot_death_drops",
-	"upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_PILOT_1" },
+    "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_PILOT_1" },
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "NOHEAD", "FILTHY" ],
-	"armor": { "bash": 5, "cut": 5, "bullet": 4, "electric": 2 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "GRABS",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "NOHEAD",
+      "FILTHY"
+    ],
+    "armor": { "bash": 5, "cut": 5, "bullet": 4, "electric": 2 }
   },
   {
     "id": "mon_zombie_milbase_personnel",
@@ -80,7 +125,7 @@
     "delete": { "flags": [ "NOHEAD" ] },
     "upgrades": { "half_life": 12, "into_group": "GROUP_ZOMBIE_UPGRADE" },
     "death_drops": "mon_zombie_milbase_personnel_death_drops",
-	"armor": { "bash": 2, "cut": 2, "bullet": 2 }
+    "armor": { "bash": 2, "cut": 2, "bullet": 2 }
   },
   {
     "id": "mon_zombie_sailor",
@@ -93,7 +138,7 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "//": "no provision for body armour or helmets in either the weak point set or dissection set, as Navy sailors aren’t normally dressed in military combat gear whilst shipside.",
     "death_drops": "mon_zombie_sailor_death_drops",
-	"armor": { "electric": 2, "bash": 2, "cut": 2, "bullet": 2 }
+    "armor": { "electric": 2, "bash": 2, "cut": 2, "bullet": 2 }
   },
   {
     "id": "mon_zombie_officer",
@@ -132,10 +177,32 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
+    "grab_strength": 20,
+    "//eats": "Infected eat corpses. see flags and special attack.",
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "GRABS",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
   }
 ]

@@ -1,0 +1,252 @@
+[
+    {
+      "type": "item_group",
+      "id": "corpses",
+      "subtype": "distribution",
+      "copy-from": "corpses",
+      "//extension": "Please fucking work. The corpses won't hold items anyway. This is a shitty workaround, if you got a better idea LMK.",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpses_no_items",
+      "subtype": "distribution",
+      "copy-from": "corpses_no_items",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_in_body_bag",
+      "subtype": "distribution",
+      "copy-from": "corpse_in_body_bag",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_male",
+      "subtype": "distribution",
+      "copy-from": "corpse_male",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_female",
+      "subtype": "distribution",
+      "copy-from": "corpse_female",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_child",
+      "subtype": "distribution",
+      "copy-from": "corpse_child",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_human",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_human",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_male",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_male",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_female",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_female",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_boy",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_boy",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_girl",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_girl",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_gunned",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_gunned",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_generic_infected",
+      "subtype": "distribution",
+      "copy-from": "corpse_generic_infected",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_bloody",
+      "subtype": "distribution",
+      "copy-from": "corpse_bloody",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_painful",
+      "subtype": "distribution",
+      "copy-from": "corpse_painful",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_scorched",
+      "subtype": "distribution",
+      "copy-from": "corpse_scorched",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_stabbed",
+      "subtype": "distribution",
+      "copy-from": "corpse_stabbed",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_gunned",
+      "subtype": "distribution",
+      "copy-from": "corpse_gunned",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_halved_upper",
+      "subtype": "distribution",
+      "copy-from": "corpse_halved_upper",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_half_beheaded",
+      "subtype": "distribution",
+      "copy-from": "corpse_half_beheaded",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_child_calm",
+      "subtype": "distribution",
+      "copy-from": "corpse_child_calm",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_child_gunned",
+      "subtype": "distribution",
+      "copy-from": "corpse_child_gunned",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_oldwoman_jewelry",
+      "subtype": "distribution",
+      "copy-from": "corpse_oldwoman_jewelry",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "everyday_corpse",
+      "subtype": "distribution",
+      "copy-from": "everyday_corpse",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "everyday_corpse_male",
+      "subtype": "collection",
+      "copy-from": "everyday_corpse_male",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "everyday_corpse_female",
+      "subtype": "collection",
+      "copy-from": "everyday_corpse_female",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "everyday_corpse_child",
+      "subtype": "collection",
+      "copy-from": "everyday_corpse_child",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "everyday_corpse_generic",
+      "subtype": "collection",
+      "copy-from": "everyday_corpse_generic",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_child_survival_undam",
+      "subtype": "collection",
+      "copy-from": "corpse_child_survival_undam",
+      "container-item": "jackle_corpse_child",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpse_female_survival_undam",
+      "subtype": "collection",
+      "copy-from": "corpse_female_survival_undam",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    },
+    {
+      "type": "item_group",
+      "id": "corpses_unisex_survival_undam",
+      "subtype": "collection",
+      "copy-from": "corpses_unisex_survival_undam",
+      "container-item": "jackle_corpse_generic",
+      "on_overflow": "spill"
+    }
+  ]
+  

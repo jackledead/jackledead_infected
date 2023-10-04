@@ -2,8 +2,8 @@
   {
     "id": "mon_zombie_survivor",
     "type": "MONSTER",
-    "name": { "str": "survivor zombie" },
-    "description": "Still wearing the tattered remnants of improvised armor and weaponry, it is plain to see that this zombie was once a survivor like you.",
+    "name": { "str": "infected survivor" },
+    "description": "Still wearing the tattered remnants of improvised armor and weaponry, it is plain to see that this infected human was once a survivor like you. Maybe they got bit.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
 	"bodytype": "human",
@@ -26,11 +26,20 @@
     "vision_day": 50,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ [ "SHRIEK", 20 ], { "type": "bite", "cooldown": 5, "min_mul": 1 }, [ "GRAB", 7 ] ],
+    "//grab": "stronger than zam bam",
+    "grab_strength": 25,
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "bite_humanoid", "cooldown": 5 },
+      { "id": "scratch_humanoid" },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_survivor_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
+    "flags": [ "SEES", "EATS", "GRABS", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
 	"armor": { "bash": 7, "cut": 7, "stab": 5, "acid": 4, "bullet": 6, "electric": 2 }
   },
   {
