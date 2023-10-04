@@ -1,19 +1,23 @@
 [
   {
     "type": "GENERIC",
-    "id": "corpse_generic_human",
-    "looks_like": "corpse_generic_human",
+    "id": "jackle_corpse",
     "symbol": "%",
     "color": "white",
     "name": { "str": "corpse" },
-    "snippet_category": "jackle_adult_corpse_description_category",
-    "description": "A dead body of a human adult. Another sign of the times we live in now.",
-    "category": "corpses",
-    "material": [ "hflesh" ],
+    "conditional_names": [
+      { "type": "FLAG", "condition": "FIELD_DRESS", "name": { "str": "carcass", "str_pl": "carcasses" } },
+      { "type": "FLAG", "condition": "FIELD_DRESS_FAILED", "name": { "str": "carcass", "str_pl": "carcasses" } },
+      { "type": "FLAG", "condition": "SKINNED", "name": { "str_sp": "skinned %s" } },
+      { "type": "FLAG", "condition": "QUARTERED", "name": "carcass quarter" }
+    ],
+    "description": "A dead body.",
+    "//": "most of the properties depend on the monster type and are created at runtime!",
     "price": 0,
-    "volume": "27 L",
-    "weight": "40 kg",
-    "flags": [ "TRADER_AVOID", "TARDIS" ],
+    "volume": "0 ml",
+    "flags": [ "TRADER_AVOID", "CORPSE", "TARDIS" ],
+    "source_monster": "mon_starving_infected",
+    "category": "corpses",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -51,8 +55,33 @@
   },
   {
     "type": "GENERIC",
+    "id": "jackle_dummy_corpse_child_calm",
+    "copy-from": "jackle_corpse",
+    "name": { "str": "corpse" },
+    "description": "The dead body of a small child.  Their corpse bears a calm facial expression, as if they died instantly.",
+    "looks_like": "corpse_generic_human",
+    "source_monster": "mon_child",
+    "material": [ "hflesh" ],
+    "delete": { "flags": [ "CORPSE" ] },
+    "extend": { "flags": [ "ZERO_WEIGHT", "TARDIS" ] },
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 100,
+        "max_contains_volume": "1650 L",
+        "max_contains_weight": "2000 kg",
+        "max_item_volume": "150 L",
+        "max_item_length": "60 meter",
+        "rigid": false,
+        "forbidden": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "type": "GENERIC",
     "id": "jackle_corpse_generic",
-    "copy-from": "corpse_generic_human",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "looks_like": "corpse_generic_human",
     "symbol": "%",
     "color": "white",
@@ -64,7 +93,52 @@
     "price": 0,
     "volume": "27 L",
     "weight": "40 kg",
-    "flags": [ "TRADER_AVOID", "TARDIS" ],
+    "delete": { "flags": [ "CORPSE" ] },
+    "extend": { "flags": [ "ZERO_WEIGHT", "TARDIS" ] },
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 100,
+        "max_contains_volume": "1650 L",
+        "max_contains_weight": "2000 kg",
+        "max_item_volume": "150 L",
+        "max_item_length": "60 meter",
+        "rigid": false,
+        "forbidden": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "dummy_corpse_jackle",
+    "copy-from": "jackle_dummy_corpse_child_calm",
+    "name": { "str": "corpse" },
+    "description": "A dead body.",
+    "looks_like": "corpse_generic_human",
+    "source_monster": "mon_starving_infected",
+    "delete": { "flags": [ "CORPSE" ] },
+    "extend": { "flags": [ "ZERO_WEIGHT", "TARDIS" ] },
+    "material": [ "hflesh" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "corpse_generic_human",
+    "copy-from": "jackle_dummy_corpse_child_calm",
+    "looks_like": "corpse_generic_human",
+    "symbol": "%",
+    "color": "white",
+    "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
+    "description": "A dead body of a human adult. Another sign of the times we live in now.",
+    "category": "corpses",
+    "material": [ "hflesh" ],
+    "price": 0,
+    "volume": "27 L",
+    "weight": "40 kg",
+    "delete": { "flags": [ "CORPSE" ] },
+    "extend": { "flags": [ "ZERO_WEIGHT", "TARDIS" ] },
+    "source_monster": "mon_starving_infected",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -141,14 +215,14 @@
   {
     "type": "GENERIC",
     "id": "corpse_generic_male",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_female",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
@@ -176,21 +250,21 @@
   {
     "type": "GENERIC",
     "id": "corpse_oldwoman_jewelry",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_bloody",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_painful",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
@@ -204,42 +278,42 @@
   {
     "type": "GENERIC",
     "id": "corpse_stabbed",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_gunned",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_halved_upper",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_half_beheaded",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_gunned",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_infected",
-    "copy-from": "jackle_corpse_generic",
+    "copy-from": "jackle_dummy_corpse_child_calm",
     "name": { "str": "corpse" },
     "delete": { "flags": [ "CORPSE" ] }
   }

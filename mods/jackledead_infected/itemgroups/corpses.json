@@ -4,7 +4,7 @@
       "id": "corpses",
       "subtype": "distribution",
       "copy-from": "corpses",
-      "//extension": "Please fucking work. The corpses won't hold items anyway. This is a shitty workaround, if you got a better idea LMK.",
+      "//extension": "Please work. The corpses won't hold items anyway. This is a crappy workaround, if you got a better idea LMK.",
       "container-item": "jackle_corpse_generic",
       "on_overflow": "spill"
     },
