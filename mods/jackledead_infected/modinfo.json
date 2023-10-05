@@ -5,7 +5,7 @@
     "name": "Jackledead Infected",
     "authors": [ "Jackledead" ],
     "maintainers": [ "Jackledead" ],
-    "description": "Changes zombies to the Infected, fast, reckless unfortunate souls intent on violence, driven by madness. Only spawns the infected, robots and normal wildlife. Stops portal storms.",
+    "description": "Changes zombies to the Infected: fast, reckless unfortunate souls intent on violence, driven by madness. Only spawns the infected humans and mammals, robots, some cyborgs and normal wildlife. Stops portal storms and removes mutants. Edit the exclusions as desired. Updated 10-4-23 9:57 AM.",
     "category": "content",
     "dependencies": [ "dda" ]
   },

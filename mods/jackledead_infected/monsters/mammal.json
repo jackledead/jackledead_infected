@@ -21,6 +21,17 @@
     "extend": { "flags": [ "NOT_HALLUCINATION" ] }
   },
   {
+    "id": "mon_jackle_human",
+    "type": "MONSTER",
+    "name": { "str": "human" },
+    "description": "Placeholder for jackle's human corpses.  If you see this, it's a bug.",
+    "bodytype": "human",
+    "copy-from": "mon_starving_infected",
+    "harvest": "jackle_harvest_rotted_humanoid",
+    "symbol": "h",
+    "extend": { "flags": [ "NOT_HALLUCINATION" ] }
+  },
+  {
     "id": "mon_bear",
     "type": "MONSTER",
     "name": { "str": "black bear" },

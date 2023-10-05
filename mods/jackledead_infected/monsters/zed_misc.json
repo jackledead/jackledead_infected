@@ -27,19 +27,24 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
     "path_settings": { "max_dist": 4 },
+    "grab_strength": 17,
     "special_attacks": [
-      [ "scratch", 10 ],
+      { "id": "grab" },
+      { "id": "scratch_humanoid", "cooldown": 10 },
       {
-        "type": "bite",
+        "id": "bite_humanoid",
         "cooldown": 5,
         "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.7 } ]
-      }
+      },
+      [ "EAT_CARRION", 260 ],
+      [ "EAT_FOOD", 360 ]
     ],
+    "stomach_size": 1,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "upgrades": { "half_life": 35, "into": "mon_zombie_hunter" },
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "electric": 1 }
+    "flags": [ "SEES", "EATS", "GRABS", "HEARS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_zombie_swimmer_base",
@@ -67,14 +72,40 @@
     "weakpoint_sets": [ "wps_humanoid_body" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
+    "grab_strength": 20,
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "scratch_humanoid", "cooldown": 10 },
+      {
+        "id": "bite_humanoid",
+        "cooldown": 5,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.7 } ]
+      },
+      [ "EAT_CARRION", 260 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_swimmer_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 12, "into": "mon_starving_infected" },
     "categories": [ "CLASSIC" ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "electric": 1 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "GRABS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_zombie_reenactor",

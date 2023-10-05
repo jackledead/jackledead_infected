@@ -1,0 +1,68 @@
+[
+    {
+      "type": "snippet",
+      "category": "jackle_child_corpse_description_category",
+      "text": [
+        {
+          "id": "jackle_child_corpse_description_1",
+          "text": "The corpse of this boy looks like it's still crying out in pain."
+        },
+        {
+          "id": "jackle_child_corpse_description_2",
+          "text": "This little girl's body is mangled and smashed, like someone tried stomping on her repeatedly."
+        },
+        {
+          "id": "jackle_child_corpse_description_3",
+          "text": "This child's corpse has been mostly eaten by flies and other insects."
+        },
+        {
+          "id": "jackle_child_corpse_description_4",
+          "text": "The young boy lying here has part of his skull caved in."
+        },
+        { "id": "jackle_child_corpse_description_5", "text": "This girls's remains and mostly liquid at this point." },
+        {
+          "id": "jackle_child_corpse_description_6",
+          "text": "This departed child is still smiling for some reason. The sight is both spooky AND peaceful."
+        },
+        {
+          "id": "jackle_child_corpse_description_7",
+          "text": "The body here is completely still. They must have been no more than 9 years old."
+        }
+      ]
+    },
+    {
+      "type": "snippet",
+      "category": "jackle_adult_corpse_description_category",
+      "text": [
+        {
+          "id": "jackle_adult_corpse_description_1",
+          "text": "The corpse of this person looks horrendously mutilated and is curled up in fetal postiion. It has chunks bitten out of it and its fingers were stepped on."
+        },
+        {
+          "id": "jackle_adult_corpse_description_2",
+          "text": "This man's chest and mouth are completely covered in dry blood. The corpses belly looks bloated and ready to pop."
+        },
+        {
+          "id": "jackle_adult_corpse_description_3",
+          "text": "This tall woman is still wearing some jewelry. Looking glamorous even in death."
+        },
+        {
+          "id": "jackle_adult_corpse_description_4",
+          "text": "The woman lying here looks like she tried her best. Her skin is bruised, scraped, and mauled. There's bloody flesh stuck under her fingernails."
+        },
+        {
+          "id": "jackle_adult_corpse_description_5",
+          "text": "This man is large and heavy, but his size didn't help him survive."
+        },
+        {
+          "id": "jackle_adult_corpse_description_6",
+          "text": "You hear the buzz of insects near this adult cadaver. There's a hole bored in its half-open eye, with a maggot wiggling inside it. Your stomach curls."
+        },
+        {
+          "id": "jackle_adult_corpse_description_7",
+          "text": "Lifelessly this skinny corpse sits still. The pose is almost angelic and the body is clean. You wonder if your death will be so peaceful."
+        }
+      ]
+    }
+  ]
+  

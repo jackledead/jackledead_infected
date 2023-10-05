@@ -26,13 +26,38 @@
     "weakpoint_sets": [ "wps_humanoid_body" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 5 ], [ "scratch", 20 ] ],
+    "grab_strength": 17,
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "scratch_humanoid", "cooldown": 10 },
+      {
+        "id": "bite_humanoid",
+        "cooldown": 5,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.7 } ]
+      },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_STARVING" },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "electric": 1 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_starving_cop",
@@ -62,13 +87,37 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ [ "GRAB", 5 ], [ "scratch", 20 ] ],
+    "special_attacks": [
+      { "id": "grab" },
+      { "id": "scratch_humanoid", "cooldown": 10 },
+      {
+        "id": "bite_humanoid",
+        "cooldown": 5,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.7 } ]
+      },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_COP_STARVING" },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 6, "cut": 6, "stab": 6, "bullet": 6, "electric": 2 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ],
+    "armor": { "bash": 6, "cut": 6, "stab": 6, "bullet": 6, "electric": 2 }
   },
   {
     "id": "mon_starving_cop_crawler",
@@ -97,13 +146,34 @@
     "weakpoint_sets": [ "wps_humanoid_head_big" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 15,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 30, "into_group": "GROUP_INFECTED_COP_STARVING_CRAWLING" },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ],
-	"armor": { "bash": 6, "cut": 6, "stab": 6, "bullet": 6, "electric": 2 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GRABS",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ],
+    "armor": { "bash": 6, "cut": 6, "stab": 6, "bullet": 6, "electric": 2 }
   },
   {
     "id": "mon_neardead_infected_crawler",
@@ -132,13 +202,34 @@
     "weakpoint_sets": [ "wps_humanoid_head_big" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 9,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 30, "into_group": "GROUP_ZOMBIE_CRAWLER_UPGRADE" },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ],
-	"armor": { "electric": 1 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GRABS",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ],
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_neardead_cop_crawler",
@@ -167,13 +258,34 @@
     "weakpoint_sets": [ "wps_humanoid_head_big" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 9,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_COP_NEARDEAD_CRAWLING" },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GRABS", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "ATTACK_LOWER" ],
-	"armor": { "bash": 6, "cut": 6, "stab": 6, "bullet": 6, "electric": 2 }
+    "flags": [
+      "SEES",
+      "EATS",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GRABS",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "ATTACK_LOWER"
+    ],
+    "armor": { "bash": 6, "cut": 6, "stab": 6, "bullet": 6, "electric": 2 }
   },
   {
     "id": "mon_starving_fireman",
@@ -202,12 +314,14 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie", "prof_wp_syn_armored" ],
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ [ "GRAB", 5 ] ],
+    "grab_strength": 21,
+    "special_attacks": [ { "id": "grab", "cooldown": 7 }, { "id": "scratch_humanoid" } ],
     "death_drops": "mon_zombie_fireman_death_drops",
     "burn_into": "mon_zombie_scorched",
     "upgrades": { "half_life": 18, "into_group": "GROUP_INFECTED_FIREMAN_NEARDEAD" },
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "STUMBLES",
       "WARM",
@@ -221,7 +335,7 @@
       "NO_FUNG_DMG",
       "FILTHY"
     ],
-	"armor": { "bash": 6, "cut": 6, "acid": 3, "heat": 10, "bullet": 5, "electric": 4 }
+    "armor": { "bash": 6, "cut": 6, "acid": 3, "heat": 10, "bullet": 5, "electric": 4 }
   },
   {
     "id": "mon_neardead_starving_fireman",
@@ -251,12 +365,15 @@
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_turnout_gear", "wps_humanoid_full_helmet" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie", "prof_wp_syn_armored" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, [ "GRAB", 5 ] ],
+    "//grabBite": "Should not be able to bite or eat",
+    "grab_strength": 13,
+    "special_attacks": [ { "id": "grab", "cooldown": 7 } ],
     "death_drops": "mon_zombie_fireman_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "flags": [
       "SEES",
+      "GRABS",
       "HEARS",
       "STUMBLES",
       "WARM",
@@ -271,7 +388,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "bash": 6, "cut": 6, "acid": 3, "heat": 10, "bullet": 5, "electric": 4 }
+    "armor": { "bash": 6, "cut": 6, "acid": 3, "heat": 10, "bullet": 5, "electric": 4 }
   },
   {
     "id": "mon_infected_hazmat_crawler",
@@ -309,11 +426,13 @@
     ],
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ [ "GRAB", 7 ] ],
+    "grab_strength": 15,
+    "special_attacks": [ { "id": "grab", "cooldown": 7 } ],
     "death_drops": "mon_zombie_hazmat_death_drops",
     "burn_into": "mon_zombie_scorched",
     "flags": [
       "SEES",
+      "GRABS",
       "HEARS",
       "STUMBLES",
       "WARM",
@@ -328,7 +447,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "bash": 5, "cut": 4, "bullet": 3, "electric": 5 }
+    "armor": { "bash": 5, "cut": 4, "bullet": 3, "electric": 5 }
   },
   {
     "id": "mon_starving_soldier",
@@ -359,13 +478,14 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 }, [ "EAT_CARRION", 200 ], [ "EAT_FOOD", 360 ] ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_1" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
+    "flags": [ "SEES", "EATS", "HEARS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
+    "armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
   },
   {
     "id": "mon_starving_soldier_crawler",
@@ -396,13 +516,22 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 15,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_2" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "WARM",
       "BASHES",
@@ -414,7 +543,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
+    "armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
   },
   {
     "id": "mon_neardead_soldier_crawler",
@@ -445,13 +574,22 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 13,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_3" },
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "WARM",
       "BASHES",
@@ -463,7 +601,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
+    "armor": { "bash": 12, "cut": 25, "bullet": 20, "electric": 3 }
   },
   {
     "id": "mon_starving_military_pilot",
@@ -494,11 +632,20 @@
     "vision_day": 35,
     "vision_night": 5,
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 15,
+    "special_attacks": [
+      { "id": "grab", "attack_upper": false },
+      { "id": "bite_humanoid", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch_humanoid", "attack_upper": false },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": "mon_zombie_military_pilot_death_drops",
     "burn_into": "mon_zombie_scorched",
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "WARM",
       "BASHES",
@@ -511,7 +658,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "bash": 5, "cut": 5, "bullet": 4, "electric": 2 }
+    "armor": { "bash": 5, "cut": 5, "bullet": 4, "electric": 2 }
   },
   {
     "id": "mon_starving_swat",
@@ -541,13 +688,15 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ [ "GRAB", 7 ], [ "scratch", 15 ] ],
+    "//": "Same grab strength as classic zombie, weaker than swat zombie",
+    "grab_strength": 20,
+    "special_attacks": [ { "id": "grab", "cooldown": 7 }, { "id": "scratch_humanoid", "cooldown": 15 } ],
     "death_drops": "mon_zombie_swat_death_drops",
     "fungalize_into": "mon_zombie_fungus",
     "burn_into": "mon_zombie_scorched",
     "upgrades": { "half_life": 24, "into_group": "GROUP_INFECTED_SWAT_2" },
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ],
-	"armor": { "bash": 10, "cut": 16, "bullet": 18, "electric": 3 }
+    "armor": { "bash": 10, "cut": 16, "bullet": 18, "electric": 3 }
   },
   {
     "id": "mon_neardead_swat_crawler",
@@ -578,7 +727,8 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "id": "scratch", "attack_upper": false } ],
+    "grab_strength": 15,
+    "special_attacks": [ { "id": "grab", "attack_upper": false }, { "id": "scratch_humanoid", "attack_upper": false } ],
     "death_drops": "mon_zombie_swat_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -595,7 +745,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "bash": 10, "cut": 16, "bullet": 18, "electric": 3 }
+    "armor": { "bash": 10, "cut": 16, "bullet": 18, "electric": 3 }
   },
   {
     "id": "mon_starving_medical",
@@ -647,7 +797,9 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "human",
-    "special_attacks": [ { "id": "scratch", "attack_upper": false, "cooldown": 15 } ],
+    "grab_strength": 9,
+    "special_attacks": [ { "id": "scratch", "attack_upper": false, "cooldown": 15 }, [ "EAT_CARRION", 200 ], [ "EAT_FOOD", 360 ] ],
+    "stomach_size": 1,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],
@@ -657,8 +809,8 @@
     "burn_into": "mon_zombie_child_scorched",
     "fungalize_into": "mon_zombie_child_fungus",
     "upgrades": { "half_life": 30, "into_group": "GROUP_CHILD_INFECTED_UPGRADE" },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ],
-	"armor": { "electric": 1 }
+    "flags": [ "SEES", "EATS", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ],
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_starving_child_crawler",
@@ -689,7 +841,14 @@
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_child_body" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie", "prof_wp_child" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false, "cooldown": 15 } ],
+    "grab_strength": 6,
+    "special_attacks": [
+      { "type": "bite", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch", "attack_upper": false, "cooldown": 15 },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],
@@ -701,6 +860,7 @@
     "upgrades": { "half_life": 26, "into_group": "GROUP_CHILD_INFECTED_NEARDEAD" },
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "SMELLS",
       "STUMBLES",
@@ -713,7 +873,7 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "electric": 1 }
+    "armor": { "electric": 1 }
   },
   {
     "id": "mon_neardead_child_crawler",
@@ -744,7 +904,14 @@
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_child_body" ],
     "families": [ "prof_intro_biology", "prof_wp_zombie", "prof_wp_child" ],
     "harvest": "human",
-    "special_attacks": [ { "type": "bite", "attack_upper": false, "cooldown": 5 }, { "id": "scratch", "attack_upper": false, "cooldown": 15 } ],
+    "grab_strength": 4,
+    "special_attacks": [
+      { "type": "bite", "attack_upper": false, "cooldown": 5 },
+      { "id": "scratch", "attack_upper": false, "cooldown": 15 },
+      [ "EAT_CARRION", 200 ],
+      [ "EAT_FOOD", 360 ]
+    ],
+    "stomach_size": 1,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],
@@ -755,6 +922,7 @@
     "fungalize_into": "mon_zombie_child_fungus",
     "flags": [
       "SEES",
+      "EATS",
       "HEARS",
       "SMELLS",
       "STUMBLES",
@@ -767,6 +935,6 @@
       "FILTHY",
       "ATTACK_LOWER"
     ],
-	"armor": { "electric": 1 }
+    "armor": { "electric": 1 }
   }
 ]
