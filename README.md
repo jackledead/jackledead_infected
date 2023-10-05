@@ -24,6 +24,9 @@ Though strangely some seemed less afflicted by the effects of the infection. Whe
 Now, months later, you're one of the last untouched by the Infection, through immunity or luck. You've seen devolution and adaptation in the infected. Some wither and starve, while others become primal alphas. Does any semblance of civilization remain? Will you cling to your morality, or descend into savagery like the infected around you? How far are you willing to go to survive?
 </details>
 
+## Latest Update Picture
+![Update_10_5_23_jackledead_infected_promo_A](https://github.com/jackledead/jackledead_infected/assets/75153234/71ff716c-3105-4dc5-aa2b-23fe8e25f377)
+
 # CDDA and CBN installs.
 _Note that CBN requires an extra step._
 ## How to install (for CDDA Latest Experimental):
