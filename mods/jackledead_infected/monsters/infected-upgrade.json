@@ -37,7 +37,7 @@
       [ "EAT_FOOD", 80 ],
       [ "EAT_CROP", 80 ]
     ],
-    "stomach_size": 2,
+    "stomach_size": 8,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -93,7 +93,7 @@
       [ "EAT_CARRION", 120 ],
       [ "EAT_FOOD", 120 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 4,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",

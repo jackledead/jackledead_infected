@@ -1,11 +1,24 @@
 TODO:
 TESTING (always)
+Continue balancing eating of carrion
+More corpse snippets
+Balance farm animal infections
+CBN update comparable to 10-4/5-23 CDDA update
+Infected taming via virus suppressant.
+Remove magical loot/ artifacts.
+More infected upgrades and downgrades and normal varieties.
+Military sweep/npc faction
 
 
-Probably done:
+Done(CDDA):
+Fixed update for new grab system. let me know if you like the balancing.
+Carrion, food and crop eating where relevent.
+snippets of lore and flavor.
+
+Probably done(CDDA):
 update new damage and armor types 4/24/23 experimental changes update
 
-most definitely done:
+most definitely done(Both versions):
 fix rot weiler
 make zed_survivor classic => "categories": [ "CLASSIC" ],
 fix all of zed_lab

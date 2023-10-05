@@ -34,7 +34,7 @@
       [ "EAT_CARRION", 450 ],
       [ "EAT_FOOD", 320 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 2,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],

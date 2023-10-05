@@ -38,7 +38,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_scientist_death_drops",
     "burn_into": "mon_zombie_scorched",
     "flags": [
@@ -101,7 +101,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_labsecurity_death_drops",
     "burn_into": "mon_zombie_scorched",
     "flags": [

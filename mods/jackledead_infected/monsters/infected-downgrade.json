@@ -38,7 +38,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -98,7 +98,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -154,7 +154,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -210,7 +210,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -266,7 +266,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -479,7 +479,7 @@
     "vision_night": 3,
     "harvest": "human",
     "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 }, [ "EAT_CARRION", 200 ], [ "EAT_FOOD", 360 ] ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_1" },
     "burn_into": "mon_zombie_scorched",
@@ -524,7 +524,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_2" },
     "burn_into": "mon_zombie_scorched",
@@ -582,7 +582,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_INFECTED_SOLDIER_3" },
     "burn_into": "mon_zombie_scorched",
@@ -640,7 +640,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "mon_zombie_military_pilot_death_drops",
     "burn_into": "mon_zombie_scorched",
     "flags": [
@@ -799,7 +799,7 @@
     "harvest": "human",
     "grab_strength": 9,
     "special_attacks": [ { "id": "scratch", "attack_upper": false, "cooldown": 15 }, [ "EAT_CARRION", 200 ], [ "EAT_FOOD", 360 ] ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],
@@ -848,7 +848,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],
@@ -911,7 +911,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ],

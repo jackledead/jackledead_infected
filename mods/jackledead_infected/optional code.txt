@@ -1,16 +1,8 @@
 OPTIONAL CODE:
 
-CAN OPEN DOORS AND AVOIDS DANGER:
+for Infected CAN OPEN DOORS AND AVOIDS DANGER:
 
-Use this code under 
-
-{
-    "type": "monster_adjustment",
-    "species": "ZOMBIE",
-    "flag": { "name": "NO_BREATHE", "value": false }
-  },
-  
-in modinfo.json
+add this code 
 
 {
     "type": "monster_adjustment",
@@ -22,3 +14,14 @@ in modinfo.json
     "species": "ZOMBIE",
     "flag": { "name": "PATH_AVOID_DANGER_1", "value": true }
 },
+
+under: 
+
+{
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "NO_BREATHE", "value": false }
+},
+  
+in modinfo.json
+

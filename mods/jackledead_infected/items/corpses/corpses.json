@@ -213,57 +213,65 @@
   {
     "type": "GENERIC",
     "id": "corpse_generic_male",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_female",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_boy",
-    "copy-from": "jackle_corpse_child",
+    "copy-from": "corpse_child_calm",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_child_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_girl",
-    "copy-from": "jackle_corpse_child",
+    "copy-from": "corpse_child_calm",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_child_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_child_gunned",
-    "copy-from": "jackle_corpse_child",
+    "copy-from": "corpse_child_calm",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_child_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_oldwoman_jewelry",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_bloody",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_painful",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
@@ -276,43 +284,49 @@
   {
     "type": "GENERIC",
     "id": "corpse_stabbed",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_gunned",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_halved_upper",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_half_beheaded",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_gunned",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   },
   {
     "type": "GENERIC",
     "id": "corpse_generic_infected",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "name": { "str": "corpse" },
+    "snippet_category": "jackle_adult_corpse_description_category",
     "delete": { "flags": [ "CORPSE" ] }
   }
 ]

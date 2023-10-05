@@ -39,7 +39,7 @@
       [ "EAT_CARRION", 260 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 3,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "upgrades": { "half_life": 35, "into": "mon_zombie_hunter" },
@@ -84,7 +84,7 @@
       [ "EAT_CARRION", 260 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 4,
     "death_drops": "mon_zombie_swimmer_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",

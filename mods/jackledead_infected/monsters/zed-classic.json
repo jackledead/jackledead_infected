@@ -34,7 +34,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+     "stomach_size": 4,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -90,7 +90,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+     "stomach_size": 4,
     "death_drops": "mon_zombie_cop_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -146,7 +146,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 2,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
@@ -201,7 +201,7 @@
       [ "EAT_CARRION", 120 ],
       [ "EAT_FOOD", 110 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 5,
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",

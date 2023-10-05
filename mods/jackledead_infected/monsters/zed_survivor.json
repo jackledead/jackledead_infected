@@ -35,7 +35,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 4,
     "death_drops": "mon_zombie_survivor_death_drops",
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",

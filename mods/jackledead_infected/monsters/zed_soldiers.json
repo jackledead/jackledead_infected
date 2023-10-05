@@ -36,7 +36,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 4,
     "death_drops": "mon_zombie_soldier_death_drops",
     "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_SOLDIER_1" },
     "burn_into": "mon_zombie_scorched",
@@ -94,7 +94,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 4,
     "death_drops": "mon_zombie_military_pilot_death_drops",
     "upgrades": { "half_life": 12, "into_group": "GROUP_INFECTED_PILOT_1" },
     "burn_into": "mon_zombie_scorched",
@@ -186,7 +186,7 @@
       [ "EAT_CARRION", 200 ],
       [ "EAT_FOOD", 360 ]
     ],
-    "stomach_size": 1,
+    "stomach_size": 4,
     "burn_into": "mon_zombie_scorched",
     "fungalize_into": "mon_zombie_fungus",
     "flags": [

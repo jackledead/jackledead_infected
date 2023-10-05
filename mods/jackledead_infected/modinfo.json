@@ -5,7 +5,7 @@
     "name": "Jackledead Infected",
     "authors": [ "Jackledead" ],
     "maintainers": [ "Jackledead" ],
-    "description": "Changes zombies to the Infected: fast, reckless unfortunate souls intent on violence, driven by madness. Only spawns the infected humans and mammals, robots, some cyborgs and normal wildlife. Stops portal storms and removes mutants. Edit the exclusions as desired. Updated 10-4-23 9:57 AM.",
+    "description": "Changes zombies to the Infected: fast, reckless unfortunate souls intent on violence, driven by madness. Only spawns the infected humans and mammals, robots, some cyborgs and normal wildlife. Stops portal storms and removes mutants. Edit the exclusions as desired. Updated 10-5-23 9:57 AM. Github Description:  jackledead_infected overhauls the classic zombie experience. All regular undead are replaced with Infected - diseased, cannibalistic humans driven by an unstoppable rage. Animals can also be infected with this mysterious illness. This mod removes supernatural elements. No portal storms, no magical loot, no giant bugs or nether-beings just you against hordes of Infected. Scavenge for supplies and face hard choices about what lengths you'll go to in order to survive. The Infected mutate over time. Some wither away, while others become swifter, stronger, and more cunning. Keep your wits about you, as the environment transforms dramatically after a few months. New apex Infected may emerge to rule the streets. Pay attention for clues about the origins and spread of the disease. Is there a cure? Will the millitary come back? Can humanity triumph and rebuild? Or will the Infection consume all?",
     "category": "content",
     "dependencies": [ "dda" ]
   },
