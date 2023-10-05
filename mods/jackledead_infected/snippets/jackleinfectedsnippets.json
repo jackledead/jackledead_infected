@@ -9,7 +9,7 @@
         },
         {
           "id": "jackle_child_corpse_description_2",
-          "text": "This little girl's body is mangled and smashed, like someone tried stomping on her repeatedly."
+          "text": "This little girl's body is mangled and smashed, like someone stomped on her repeatedly."
         },
         {
           "id": "jackle_child_corpse_description_3",
@@ -19,7 +19,7 @@
           "id": "jackle_child_corpse_description_4",
           "text": "The young boy lying here has part of his skull caved in."
         },
-        { "id": "jackle_child_corpse_description_5", "text": "This girls's remains and mostly liquid at this point." },
+        { "id": "jackle_child_corpse_description_5", "text": "This girl's remains and mostly liquid at this point." },
         {
           "id": "jackle_child_corpse_description_6",
           "text": "This departed child is still smiling for some reason. The sight is both spooky AND peaceful."
@@ -48,7 +48,7 @@
         },
         {
           "id": "jackle_adult_corpse_description_4",
-          "text": "The woman lying here looks like she tried her best. Her skin is bruised, scraped, and mauled. There's bloody flesh stuck under her fingernails."
+          "text": "The woman lying here looks like she tried her best. Her skin is bruised, scraped, and mangled. There's bloody flesh stuck under her fingernails."
         },
         {
           "id": "jackle_adult_corpse_description_5",
@@ -56,11 +56,79 @@
         },
         {
           "id": "jackle_adult_corpse_description_6",
-          "text": "You hear the buzz of insects near this adult cadaver. There's a hole bored in its half-open eye, with a maggot wiggling inside it. Your stomach curls."
+          "text": "You hear the buzz of insects near this adult cadaver. There's a hole bored in its half-open eye with a maggot wiggling inside it. Your stomach curls."
         },
         {
           "id": "jackle_adult_corpse_description_7",
           "text": "Lifelessly this skinny corpse sits still. The pose is almost angelic and the body is clean. You wonder if your death will be so peaceful."
+        },
+        {
+          "id": "jackle_adult_corpse_description_8",
+          "text": "Just another body in a dead world."
+        },
+        {
+          "id": "jackle_adult_corpse_description_9",
+          "text": "The woman lying here still has a hint of beauty in death. Her hair is dyed in an ombre style."
+        },
+        {
+          "id": "jackle_adult_corpse_description_10",
+          "text": "This handsome fella has quite the mustache on his dead face. He even waxed it."
+        },
+        {
+          "id": "jackle_adult_corpse_description_11",
+          "text": "This person has intense look on their face, like they were ready for battle when they perished."
+        },
+        {
+          "id": "jackle_adult_corpse_description_12",
+          "text": "A young adult human corpse, maybe 18 years of age. They have a tattoo on whats visible on their leg."
+        },
+        {
+          "id": "jackle_adult_corpse_description_13",
+          "text": "Dead. Dead. Dead. Why is everyone dead. Where did this infection come from?"
+        },
+        {
+          "id": "jackle_adult_corpse_description_14",
+          "text": "The corpse of this person looks a lot like someone you grew up with. Thinking back to home and your youth, you dream of better days."
+        },
+        {
+          "id": "jackle_adult_corpse_description_15",
+          "text": "They're dead. Maybe they have some loot nearby."
+        },
+        {
+          "id": "jackle_adult_corpse_description_16",
+          "text": "This man has a long, sharp nose, almost like a cartoon character."
+        },
+        {
+          "id": "jackle_adult_corpse_description_17",
+          "text": "Her face is covered in bruises and her body is lying crooked on the ground. You feel something for her."
+        },
+        {
+          "id": "jackle_adult_corpse_description_18",
+          "text": "A maggot crawls across this one's exposed flesh. Ugh. Who knows what's under the surface of the skin."
+        },
+        {
+          "id": "jackle_adult_corpse_description_19",
+          "text": "An average sized man with dark skin. He has beads woven into his hair. He is very, very dead."
+        },
+        {
+          "id": "jackle_adult_corpse_description_20",
+          "text": "A gunshot wound rests in this one's chest. There's no exit wound so the bullet probably shredded their lungs or something. Maybe it's lodged in the spine. You're almost jealous of the quick death."
+        },
+        {
+          "id": "jackle_adult_corpse_description_21",
+          "text": "This woman in in her 40s maybe. She has a soft, motherly expression on her dead face."
+        },
+        {
+          "id": "jackle_adult_corpse_description_22",
+          "text": "The eyes of this corpse are missing. There's scratches and bite marks all over the face."
+        },
+        {
+          "id": "jackle_adult_corpse_description_23",
+          "text": "This man's thick stubble on his chin gives him an expression like he's tired and want's to go home from work. Maybe he's in a better place now."
+        },
+        {
+          "id": "jackle_adult_corpse_description_24",
+          "text": "The body of this person has brightly dyed hair and a pouting expression."
         }
       ]
     }
