@@ -1,13 +1,13 @@
 TODO:
 TESTING (always)
 Continue balancing eating of carrion
-More corpse snippets
-Balance farm animal infections
+More child corpse snippets, maybe more flavors. fix pose mentions per critism via Atomic Fox
+Balance farm animal infections times and chances
 CBN update comparable to 10-4/5-23 CDDA update
-Infected taming via virus suppressant.
+Infected taming via virus suppressant special item.
 Remove magical loot/ artifacts.
-More infected upgrades and downgrades and normal varieties.
-Military sweep/npc faction
+More infected monster upgrades and downgrades and normal varieties.
+Military sweep/npc faction mid game
 
 
 Done(CDDA):
