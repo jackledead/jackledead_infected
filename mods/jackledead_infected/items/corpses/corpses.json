@@ -62,7 +62,6 @@
     "looks_like": "corpse_generic_human",
     "source_monster": "mon_child",
     "material": [ "hflesh" ],
-    "delete": { "flags": [ "CORPSE" ] },
     "extend": { "flags": [ "ZERO_WEIGHT", "TARDIS" ] },
     "pocket_data": [
       {
@@ -124,7 +123,7 @@
   {
     "type": "GENERIC",
     "id": "corpse_generic_human",
-    "copy-from": "jackle_dummy_corpse_child_calm",
+    "copy-from": "corpse_generic_human",
     "looks_like": "corpse_generic_human",
     "symbol": "%",
     "color": "white",
@@ -136,9 +135,8 @@
     "price": 0,
     "volume": "27 L",
     "weight": "40 kg",
-    "delete": { "flags": [ "CORPSE" ] },
-    "extend": { "flags": [ "ZERO_WEIGHT", "TARDIS" ] },
-    "source_monster": "mon_starving_infected",
+    "extend": { "flags": [ "TARDIS", "FIELD_DRESS_FAILED" ] },
+    "source_monster": "mon_jackle_human",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",

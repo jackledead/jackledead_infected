@@ -14,5 +14,20 @@
       { "drop": "xlframe", "scale_num": [ 0.3, 0.9 ], "max": 1, "type": "bone" },
       { "drop": "sheet_metal_small", "base_num": [ 1, 5 ], "scale_num": [ 0.3, 0.9 ], "max": 12, "type": "skin" }
     ]
+  },
+  {
+    "id": "jackle_harvest_rotted_humanoid",
+    "//": "your bog standard humanoid zombie corpse harvest",
+    "type": "harvest",
+    "message": "<zombie_humanoid_generic_harvest>",
+    "entries": [
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.05 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "tainted_marrow", "type": "bone", "mass_ratio": 0.002 },
+      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.05 },
+      { "drop": "skull_human", "type": "bone", "scale_num": [ 0, 1 ], "max": 1 }
+    ]
   }
 ]
+
