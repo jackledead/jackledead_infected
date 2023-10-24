@@ -29,6 +29,8 @@ How far are you willing to go to survive?
 </details>
 
 ## Latest Update Picture
+![mhoros corps update 1 new tileset support edit B](https://github.com/jackledead/jackledead_infected/assets/75153234/75d6df29-e32f-439c-8b33-2b1ae57247a7)
+
 ![Update_10_5_23_jackledead_infected_promo_A](https://github.com/jackledead/jackledead_infected/assets/75153234/71ff716c-3105-4dc5-aa2b-23fe8e25f377)
 
 # CDDA and CBN installs.
