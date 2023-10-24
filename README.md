@@ -8,6 +8,8 @@ The Infected mutate over time. Some wither away, while others become swifter, st
 
 Pay attention for clues about the origins and spread of the disease. Is there a cure? Will the millitary come back? Can humanity triumph and rebuild? Or will the Infection consume all?
 
+And why did you just see a helicopter fly overhead...
+
 ## Lore Primer
 <details><summary>Spoiler Warning</summary>
 
@@ -15,13 +17,15 @@ We should have seen it coming. WHO and the CDC warned us. The conspiracy theoris
 
 It started small - isolated cases of a new rabies strain. But it quickly spiraled out of control. 
 
-Mysterious mercenaries invaded the USA and the disease arrived with them. The president issued a draft and declared martial law but it wasn't enough. Florida and Hawaii were the first to fall. Then Washington DC. Then Montreal.
+Mysterious mercenaries invaded the USA and the disease arrived with them. The president issued a draft and declared martial law but it wasn't enough. Florida and Hawaii were the first to fall. Then Washington DC. Then Montreal. It all happened so fast.
 
 The infected weren't just mad - they were cannibals, eating anything living or dead. First came the chaos as victims turned overnight. Then the inevitable societal collapse.
 
 Though strangely some seemed less afflicted by the effects of the infection. Whether by genetic immunity or viral suppresant drugs, it didn't affect everyone equally.
 
-Now, months later, you're one of the last untouched by the Infection, through immunity or luck. You've seen devolution and adaptation in the infected. Some wither and starve, while others become primal alphas. Does any semblance of civilization remain? Will you cling to your morality, or descend into savagery like the infected around you? How far are you willing to go to survive?
+Now, months later, you're one of the last untouched by the Infection, through immunity or luck. You've seen devolution and adaptation in the infected. Some wither and starve, while others become primal alphas. Does any semblance of civilization remain? Will you cling to your morality, or descend into savagery like the infected around you? 
+
+How far are you willing to go to survive?
 </details>
 
 ## Latest Update Picture
@@ -43,20 +47,19 @@ If you dont play with it at 4, and instead keep it at default of 2, then infecte
 
 # Additonal Modding
 ## Suggested Tileset
+#### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Official style supported by included tileset. Looks great with the guns from my other mod jackledead_armory, is very visible and fun.
 #### ULTICA: Represent infected humans pretty closely to my vision with the zombie sprites in ULTICA.
 #### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
-#### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
 
 ## Suggested Mods for use with this mod
-#### [Jackledead Armory Github](https://github.com/jackledead/jackledead_armory) for that Ukrainian apocalypse feel. Over 40 new gun mods, over 8 new guns. Tons of professions.
+#### [Jackledead Armory Github](https://github.com/jackledead/jackledead_armory) for that Ukrainian apocalypse feel. Over 40 new gun mods, over 8 new guns. Tons of professions. Both mods were designed to work hand in hand with the other.
 
 ## Additional Mods you may be interested in
 #### deadly_bites" aka "Deadly Zombie Virus" in the core CDDA mods for that infected bite risk. Really makes fast ones dangerous.
 #### My repo of the exclusions mods anthology by Kenan and I [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
-#### [No Hope and Dinos](https://github.com/jackledead/No-Hope-and-Dinos). Doesnt work with infected well, but works great with armory. Hopeless dinosaur apocalypse inbound.
 
 # Special Thanks
-#### My Wife for being my biggest fan.
+#### My wife for being my biggest fan.
 #### Phoenix of the Chorus for getting me back into modding by pointing out a simple old bug I accidentally left in dinomod.
 #### MoonlitRiverlight for butchery and corpse help.
 #### LyleSY and the Dino Gang. Long live laser spinosaurus and DinoMod.

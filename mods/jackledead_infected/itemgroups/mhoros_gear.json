@@ -1,0 +1,84 @@
+[
+    {
+      "id": "nested_mhoros_hk416_short_barrel",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "mhoros_hk416_short_barrel", "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 80, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 50, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 30, "charges-min": 0, "charges-max": 30 },
+        { "group": "on_hand_223" }
+      ]
+    },
+    {
+      "id": "nested_mhoros_hk416_modular",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "mhoros_hk416_modular", "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 80, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 50, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 30, "charges-min": 0, "charges-max": 30 },
+        { "group": "on_hand_223" }
+      ]
+    },
+    {
+      "id": "drops_mhoros_agent",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "wetsuit", "prob": 90 },
+        { "item": "pants_army", "prob": 50 },
+        { "item": "wetsuit_hood", "prob": 70 },
+        { "item": "tac_helmet", "prob": 70 },
+        { "item": "wetsuit_gloves", "prob": 60 },
+        { "item": "gloves_tactical", "prob": 60 },
+        { "item": "socks", "prob": 5 },
+        { "item": "boots_combat", "prob": 90 },
+        { "item": "dive_bag", "prob": 90 },
+        { "item": "diving_watch", "prob": 50 },
+        { "item": "chestrig", "prob": 50 },
+        { "item": "ear_plugs", "prob": 30 },
+        { "item": "glasses_bal", "prob": 25 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 30 },
+        { "group": "nested_mhoros_hk416_short_barrel" },
+        { "item": "mask_gas", "charges": [ 0, 100 ] },
+        { "item": "two_way_radio", "prob": 40, "charges": [ 0, 100 ] },
+        { "group": "military_patrol_food" },
+        { "distribution": [ { "group": "infantry_officer_gear" }, { "group": "infantry_medical_gear" } ], "prob": 5 },
+        { "group": "misc_smoking_legal", "prob": 40 }
+      ]
+    },
+    {
+      "id": "drops_mhoros_officer",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "wetsuit", "prob": 90 },
+        { "item": "pants_army", "prob": 50 },
+        { "item": "wetsuit_hood", "prob": 70 },
+        { "item": "tac_helmet", "prob": 70 },
+        { "item": "wetsuit_gloves", "prob": 60 },
+        { "item": "gloves_tactical", "prob": 60 },
+        { "item": "socks", "prob": 5 },
+        { "item": "boots_combat", "prob": 90 },
+        { "item": "dive_bag", "prob": 90 },
+        { "item": "diving_watch", "prob": 50 },
+        { "group": "military_ballistic_vest_pristine", "prob": 80 },
+        { "item": "ear_plugs", "prob": 30 },
+        { "item": "glasses_bal", "prob": 25 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 30 },
+        { "group": "nested_mhoros_hk416_modular" },
+        { "group": "charged_heavy_flashlight" },
+        { "item": "mask_gas", "charges": [ 0, 100 ] },
+        { "item": "two_way_radio", "prob": 60, "charges": [ 0, 100 ] },
+        { "group": "military_patrol_food" },
+        { "distribution": [ { "group": "infantry_officer_gear" }, { "group": "infantry_medical_gear" } ], "prob": 25 },
+        { "group": "misc_smoking_legal", "prob": 30 }
+      ]
+    }
+  ]
+  

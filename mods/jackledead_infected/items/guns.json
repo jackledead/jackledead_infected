@@ -1,0 +1,92 @@
+[
+    {
+      "id": "mhoros_hk416_short_barrel",
+      "type": "GUN",
+      "looks_like": "modular_ar15",
+      "copy-from": "modular_m27_assault_rifle",
+      "name": { "str": "Mhoros Corps HK 416 Short Barrel" },
+      "description": "A compact and lightweight version of the Heckler & Koch HK 416, featuring a short 10.6-inch barrel. It is chambered in 5.56x45mm and accepts STANAG magazines. This one came with a sight mount and holographic sight.",
+      "weight": "900 g",
+      "volume": "2500 ml",
+      "longest_side": "762 mm",
+      "price": 400000,
+      "price_postapoc": 2000,
+      "barrel_length": "252 mm",
+      "//jkl": "252mm for 36 dmg via 223 ammo json. 260 mm (10.6 inches) https://www.thedrive.com/the-war-zone/marine-recon-units-get-short-barrel-versions-of-the-hk-m27-rifle",
+      "dispersion": 280,
+      "durability": 7,
+      "min_cycle_recoil": 1350,
+      "ammo": [ "NULL" ],
+      "skill": "rifle",
+      "weapon_category": [ "AUTOMATIC_RIFLES" ],     
+      "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+      "default_mods": [ "holo_sight", "retool_ar15_223rem_short" ],
+      "valid_mod_locations": [
+        [ "sights", 1 ],
+        [ "bore", 1 ],
+        [ "grip", 1 ],
+        [ "mechanism", 4 ],
+        [ "sling", 1 ],
+        [ "stock accessory", 2 ],
+        [ "stock", 1 ]
+      ],
+      "melee_damage": { "bash": 11 },
+      "pocket_data": [
+        {
+          "pocket_type": "MAGAZINE_WELL",
+          "item_restriction": [
+            "stanag30",
+            "stanag5",
+            "stanag5ranger",
+            "stanag10",
+            "stanag10ranger",
+            "stanag20",
+            "stanag20ranger",
+            "stanag30ranger",
+            "stanag40",
+            "stanag40ranger",
+            "stanag50",
+            "stanag60",
+            "stanag60drum",
+            "stanag90",
+            "stanag100",
+            "stanag100drum",
+            "stanag150",
+            "stanag20_beowulf",
+            "stanag20ranger_beowulf",
+            "stanag30_beowulf",
+            "stanag30ranger_beowulf",
+            "50beowulf_ar15mag",
+            "450_ar15mag",
+            "762_ar15mag_5rd",
+            "762_ar15mag_10rd",
+            "762_ar15mag_20rd",
+            "762_ar15mag_30rd",
+            "survivor223mag"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mhoros_hk416_modular",
+      "looks_like": "modular_ar15",
+      "copy-from": "modular_m27_assault_rifle",
+      "type": "GUN",
+      "name": { "str": "Mhoros Corps HK 416" },
+      "description": "Designed to replace the M4A1, the Heckler and Koch 416A5 features most of the former's strengths, while being considerably more durable. It is chambered in 5.56x45mm and accepts STANAG magazines. This one came with a sight mount and holographic sight.",
+      "valid_mod_locations": [
+        [ "sights", 1 ],
+        [ "bore", 1 ],
+        [ "grip", 1 ],
+        [ "mechanism", 4 ],
+        [ "sling", 1 ],
+        [ "stock accessory", 2 ],
+        [ "stock", 1 ]
+      ],
+      "default_mods": [ "holo_sight", "retool_ar15_223rem" ],
+      "ammo": [ "NULL" ],
+      "skill": "rifle",
+      "weapon_category": [ "AUTOMATIC_RIFLES" ]
+    }
+  ]
+  

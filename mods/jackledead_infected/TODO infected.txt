@@ -1,16 +1,20 @@
 TODO:
 TESTING (always)
-Continue balancing eating of carrion
-More child corpse snippets, maybe more flavors. fix pose mentions per critism via Atomic Fox
+
 Balance farm animal infections times and chances
 CBN update comparable to 10-4/5-23 CDDA update
-Infected taming via virus suppressant special item.
+Infected taming via virus suppressant special item (check the mercs).
+More unique merc loot.
 Remove magical loot/ artifacts.
+More mhoros variety, and possible quest line.
 More infected monster upgrades and downgrades and normal varieties.
-Military sweep/npc faction mid game
-
+Maybe more flavors of snippets. 
 
 Done(CDDA):
+More child corpse snippets
+Military sweep/npc faction mid game
+fix pose mentions per critism
+Continue balancing eating of carrion
 Fixed update for new grab system. let me know if you like the balancing.
 Carrion, food and crop eating where relevent.
 snippets of lore and flavor.

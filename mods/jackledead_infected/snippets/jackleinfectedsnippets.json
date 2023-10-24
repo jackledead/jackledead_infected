@@ -27,6 +27,34 @@
         {
           "id": "jackle_child_corpse_description_7",
           "text": "The body here is completely still. They must have been no more than 9 years old."
+        },
+        {
+          "id": "jackle_child_corpse_description_8",
+          "text": "The body of this little girl has been completely mangled, as though she was partially eaten by wild animals... or infected cannibals."
+        },
+        {
+          "id": "jackle_child_corpse_description_9",
+          "text": "This young boy's corpse is lying face down on the ground, his spine visibly broken."
+        },
+        {
+          "id": "jackle_child_corpse_description_10",
+          "text": "This child's body has been horribly mutilated, with large chunks of flesh missing from their limbs and torso."
+        },
+        {
+          "id": "jackle_child_corpse_description_11",
+          "text": "This girl's corpse has is bloated and worms are wrigling in her open wounds."
+        },
+        {
+          "id": "jackle_child_corpse_description_12",
+          "text": "This boy's body has been completely disfigured, with his head twisted almost entirely around."
+        },
+        {
+          "id": "jackle_child_corpse_description_13",
+          "text": "The corpse of this child has been partially eaten by bugs and maggots, which swarm around their remains."
+        },
+        {
+          "id": "jackle_child_corpse_description_14",
+          "text": "The body of this departed child is still intact, but their skin has turned a sickly green color and their eyes have popped out of their sockets."
         }
       ]
     },
