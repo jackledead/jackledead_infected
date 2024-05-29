@@ -40,7 +40,7 @@ _Note that CBN requires an extra step._
 ### 2. Extract and then
 ### 3. simply put jackledead_infected/mods/jackledead_infected in your /data/mods/ folder
 
-## How to install (CBN Latest Experimental):
+## How to install (CBN Latest Experimental<Out of date/Old!>):
 ### 1. Click the green button in the top and download as a zip
 ### 2. Extract and then
 ### 3. simply put jackledead_infected/mods BN/jackledead_infected in your /data/mods/ folder
