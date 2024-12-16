@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "mhoros_corps",
+    "friendly": [ "fish" ],
+    "by_mood": [ "animal", "small_animal" ],
+    "hate": [ "zombie", "human", "player" ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+    {
+      "id": "nested_mhoros_hk416_short_barrel",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "mhoros_hk416_short_barrel", "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 80, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 50, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 30, "charges-min": 0, "charges-max": 30 },
+        { "group": "on_hand_223" }
+      ]
+    },
+    {
+      "id": "nested_mhoros_hk416_modular",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "mhoros_hk416_modular", "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 80, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 50, "charges-min": 0, "charges-max": 30 },
+        { "item": "stanag30", "prob": 30, "charges-min": 0, "charges-max": 30 },
+        { "group": "on_hand_223" }
+      ]
+    },
+    {
+      "id": "drops_mhoros_agent",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_mhoros_hk416_short_barrel" },
+        { "item": "kevlar", "prob": 70 },
+        { "item": "knee_pads", "prob": 60 },
+        { "item": "tac_helmet", "prob": 80 },
+        { "item": "gloves_tactical", "prob": 60 },
+        { "item": "boots_combat", "prob": 80 },
+        { "item": "kevlar", "prob": 40 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 40 },
+        { "item": "two_way_radio", "prob": 40 },
+        { "group": "military_patrol_food" },
+        { "group": "infantry_officer_gear", "prob": 20 },
+        { "group": "infantry_medical_gear", "prob": 10 },
+        { "item": "mask_gas", "charges": [ 0, 100 ] },
+        { "group": "misc_smoking", "prob": 10 }
+      ]
+    },
+    {
+      "id": "drops_mhoros_officer",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "kevlar", "prob": 70 },
+        { "item": "legguard_hard", "prob": 60 },
+        { "item": "armguard_hard", "prob": 60 },
+        { "item": "helmet_army", "prob": 80 },
+        { "item": "gloves_tactical", "prob": 80 },
+        { "item": "boots_combat", "prob": 80 },
+        { "item": "dump_pouch", "prob": 60 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 40 },
+        { "item": "two_way_radio", "prob": 60 },
+        { "group": "military_patrol_food" },
+        { "group": "infantry_officer_gear", "prob": 40 },
+        { "group": "infantry_medical_gear", "prob": 20 },
+        { "group": "nested_mhoros_hk416_modular" },
+        { "item": "heavy_flashlight" },
+        { "item": "mask_gas", "charges": [ 0, 100 ] },
+        { "item": "two_way_radio", "prob": 60, "charges": [ 0, 100 ] },
+        { "group": "military_patrol_food" },
+        { "distribution": [ { "group": "infantry_officer_gear" }, { "group": "infantry_medical_gear" } ], "prob": 25 },
+        { "group": "misc_smoking", "prob": 30 }
+      ]
+    }
+  ]
+  

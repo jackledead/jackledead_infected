@@ -1,0 +1,25 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE", "MSXotto+", "MshockXottoplus" ],
+      "tiles-new": [
+        {
+          "file": "infectednormal.png",
+          "tiles": [
+            { "id": "mon_mhoros_agent", "fg": 2, "bg": 1 },
+            { "id": "mon_mhoros_officer", "fg": 2, "bg": 1 },
+            { "id": "mon_zombie_crawler", "fg": 3, "bg": 1 }
+          ]
+        },
+        {
+          "file": "jackleinfecteditems.png",
+          "tiles": [
+            { "id": [ "mhoros_hk416_short_barrel", "mhoros_hk416_modular" ], "fg": 5, "rotates": false },
+            { "id": "overlay_wielded_mhoros_hk416_short_barrel", "fg": 6, "rotates": false },
+            { "id": "overlay_wielded_mhoros_hk416_modular", "fg": 6, "rotates": false }
+          ]
+        }
+      ]
+    }
+  ]
+  
